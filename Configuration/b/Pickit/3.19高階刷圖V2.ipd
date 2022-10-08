@@ -55,7 +55,7 @@
 //	[Type] == "Jeweller's Orb" # 	[StashItem]	 == "true"	//	//工匠石	拾取且存倉																						
 	[Type] == "Mirror of Kalandra" # 	[StashItem]	 == "true"	//	//卡蘭德的魔鏡	拾取且存倉																						
 //	[Type] == "Orb of Alchemy" # 	[StashItem]	 == "true"	//	//點金石	拾取且存倉																						
-//	[Type] == "Orb of Alteration" # 	[StashItem]	 == "true"	//	//改造石	拾取且存倉																						
+	[Type] == "Orb of Alteration" # 	[StashItem]	 == "true"	//	//改造石	拾取且存倉																						
 //	[Type] == "Orb of Transmutation" # 	[StashItem]	 == "true"	//	//蛻變石	拾取且存倉																						
 //	[Type] == "Orb of Augmentation" # 	[StashItem]	 == "true"	//	//增幅石	拾取且存倉																						
 	[Type] == "Orb of Chance" # 	[StashItem]	 == "true"	//	//機會石	拾取且存倉																						
@@ -298,22 +298,22 @@
 //	[Type] == "Weeping Essence of Wrath" # 	[StashItem]	 == "true"	//	//雷霆之啼泣精髓	不撿不存倉																						
 //	[Type] == "Weeping Essence of Doubt" # 	[StashItem]	 == "true"	//	//疑惑之啼泣精髓	不撿不存倉																						
 	// Tier 4			//																								
-	[Type] == "Wailing Essence of Hatred" # 	[StashItem]	 == "true"	//	//憎恨之哀嚎精髓	拾取且存倉																						
-	[Type] == "Wailing Essence of Woe" # 	[StashItem]	 == "true"	//	//悲痛之哀嚎精髓	拾取且存倉																						
-	[Type] == "Wailing Essence of Greed" # 	[StashItem]	 == "true"	//	//貪婪之哀嚎精髓	拾取且存倉																						
-	[Type] == "Wailing Essence of Contempt" # 	[StashItem]	 == "true"	//	//輕視之哀嚎精髓	拾取且存倉																						
-	[Type] == "Wailing Essence of Sorrow" # 	[StashItem]	 == "true"	//	//哀惜之哀嚎精髓	拾取且存倉																						
-	[Type] == "Wailing Essence of Anger" # 	[StashItem]	 == "true"	//	//憤怒之哀嚎精髓	拾取且存倉																						
-	[Type] == "Wailing Essence of Torment" # 	[StashItem]	 == "true"	//	//折磨之哀嚎精髓	拾取且存倉																						
-	[Type] == "Wailing Essence of Fear" # 	[StashItem]	 == "true"	//	//恐懼之哀嚎精髓	拾取且存倉																						
-	[Type] == "Wailing Essence of Suffering" # 	[StashItem]	 == "true"	//	//苦難之哀嚎精髓	拾取且存倉																						
-	[Type] == "Wailing Essence of Rage" # 	[StashItem]	 == "true"	//	//肆虐之哀嚎精髓	拾取且存倉																						
-	[Type] == "Wailing Essence of Wrath" # 	[StashItem]	 == "true"	//	//雷霆之哀嚎精髓	拾取且存倉																						
-	[Type] == "Wailing Essence of Doubt" # 	[StashItem]	 == "true"	//	//疑惑之哀嚎精髓	拾取且存倉																						
-	[Type] == "Wailing Essence of Anguish" # 	[StashItem]	 == "true"	//	//煎熬之哀嚎精髓	拾取且存倉																						
-	[Type] == "Wailing Essence of Loathing" # 	[StashItem]	 == "true"	//	//厭惡之哀嚎精髓	拾取且存倉																						
-	[Type] == "Wailing Essence of Spite" # 	[StashItem]	 == "true"	//	//刻毒之哀嚎精髓	拾取且存倉																						
-	[Type] == "Wailing Essence of Zeal" # 	[StashItem]	 == "true"	//	//熱情之哀嚎精髓	拾取且存倉																						
+//	[Type] == "Wailing Essence of Hatred" # 	[StashItem]	 == "true"	//	//憎恨之哀嚎精髓	拾取且存倉																						
+//	[Type] == "Wailing Essence of Woe" # 	[StashItem]	 == "true"	//	//悲痛之哀嚎精髓	拾取且存倉																						
+//	[Type] == "Wailing Essence of Greed" # 	[StashItem]	 == "true"	//	//貪婪之哀嚎精髓	拾取且存倉																						
+//	[Type] == "Wailing Essence of Contempt" # 	[StashItem]	 == "true"	//	//輕視之哀嚎精髓	拾取且存倉																						
+//	[Type] == "Wailing Essence of Sorrow" # 	[StashItem]	 == "true"	//	//哀惜之哀嚎精髓	拾取且存倉																						
+//	[Type] == "Wailing Essence of Anger" # 	[StashItem]	 == "true"	//	//憤怒之哀嚎精髓	拾取且存倉																						
+//	[Type] == "Wailing Essence of Torment" # 	[StashItem]	 == "true"	//	//折磨之哀嚎精髓	拾取且存倉																						
+//	[Type] == "Wailing Essence of Fear" # 	[StashItem]	 == "true"	//	//恐懼之哀嚎精髓	拾取且存倉																						
+//	[Type] == "Wailing Essence of Suffering" # 	[StashItem]	 == "true"	//	//苦難之哀嚎精髓	拾取且存倉																						
+//	[Type] == "Wailing Essence of Rage" # 	[StashItem]	 == "true"	//	//肆虐之哀嚎精髓	拾取且存倉																						
+//	[Type] == "Wailing Essence of Wrath" # 	[StashItem]	 == "true"	//	//雷霆之哀嚎精髓	拾取且存倉																						
+//	[Type] == "Wailing Essence of Doubt" # 	[StashItem]	 == "true"	//	//疑惑之哀嚎精髓	拾取且存倉																						
+//	[Type] == "Wailing Essence of Anguish" # 	[StashItem]	 == "true"	//	//煎熬之哀嚎精髓	拾取且存倉																						
+//	[Type] == "Wailing Essence of Loathing" # 	[StashItem]	 == "true"	//	//厭惡之哀嚎精髓	拾取且存倉																						
+//	[Type] == "Wailing Essence of Spite" # 	[StashItem]	 == "true"	//	//刻毒之哀嚎精髓	拾取且存倉																						
+//	[Type] == "Wailing Essence of Zeal" # 	[StashItem]	 == "true"	//	//熱情之哀嚎精髓	拾取且存倉																						
 	// Tier 5			//																								
 	[Type] == "Screaming Essence of Hatred" # 	[StashItem]	 == "true"	//	//憎恨之咆哮精髓	拾取且存倉																						
 	[Type] == "Screaming Essence of Woe" # 	[StashItem]	 == "true"	//	//悲痛之咆哮精髓	拾取且存倉																						
@@ -2087,10 +2087,10 @@
 	[Type]  == "Eldritch Exalted Orb" # 	[StashItem]	 == "true" // 		異能崇高石	拾取且存倉																						
 	[Type]  == "Eldritch Orb of Annulment" # 	[StashItem]	 == "true" // 		異能無效石	拾取且存倉																						
 	[Type]  == "Eldritch Chaos Orb" # 	[StashItem]	 == "true" // 		異能混沌石	拾取且存倉																						
-	[Type]  == "Singular Scouting Report" # 	[StashItem]	 == "true" // 		偵查報告	拾取且存倉																						
-	[Type]  == "Otherworldly Scouting Report" # 	[StashItem]	 == "true" // 		偵查報告	拾取且存倉																						
-	[Type]  == "Comprehensive Scouting Report" # 	[StashItem]	 == "true" // 		偵查報告	拾取且存倉																						
-	[Type]  == "Vaal Scouting Report" # 	[StashItem]	 == "true" // 		偵查報告	拾取且存倉																						
+//	[Type]  == "Singular Scouting Report" # 	[StashItem]	 == "true" // 		偵查報告	拾取且存倉																						
+//	[Type]  == "Otherworldly Scouting Report" # 	[StashItem]	 == "true" // 		偵查報告	拾取且存倉																						
+//	[Type]  == "Comprehensive Scouting Report" # 	[StashItem]	 == "true" // 		偵查報告	拾取且存倉																						
+//	[Type]  == "Vaal Scouting Report" # 	[StashItem]	 == "true" // 		偵查報告	拾取且存倉																						
 	[Type]  == "Delirious Scouting Report" # 	[StashItem]	 == "true" // 		偵查報告	拾取且存倉																						
 	[Type]  == "Operative's Scouting Report" # 	[StashItem]	 == "true" // 		偵查報告	拾取且存倉																						
 	[Type]  == "Blighted Scouting Report" # 	[StashItem]	 == "true" // 		偵查報告	拾取且存倉																						
