@@ -859,10 +859,10 @@
 //	[Type] =="Polaric Invitation" #	[StashItem]	 == "true" 	//	//極地之邀	不撿不存倉																						
 	[Type] == "Screaming Invitation" #	[StashItem]	 == "true" 	//	//尖哮之邀	拾取且存倉																						
 //	[Type] =="Writhing Invitation" #	[StashItem]	 == "true" 	//	//纏繞之邀	不撿不存倉																						
-	[Type] =="Maven's Invitation: The Elderslayers" #	[StashItem]	 == "true" 		//殺手	拾取且存倉																						
-	[Type] =="Maven's Invitation: The Forgotten" #	[StashItem]	 == "true" 		//釋界之邀：遺忘	拾取且存倉																						
-	[Type] =="Maven's Invitation: The Formed" #	[StashItem]	 == "true" 		//釋界之邀：塑型	拾取且存倉																						
-	[Type] =="Maven's Invitation: The Twisted" #	[StashItem]	 == "true" 		//釋界之邀：扭曲	拾取且存倉																						
+//	[Type] =="Maven's Invitation: The Elderslayers" #	[StashItem]	 == "true" 		//殺手	拾取且存倉																						
+//	[Type] =="Maven's Invitation: The Forgotten" #	[StashItem]	 == "true" 		//釋界之邀：遺忘	拾取且存倉																						
+//	[Type] =="Maven's Invitation: The Formed" #	[StashItem]	 == "true" 		//釋界之邀：塑型	拾取且存倉																						
+//	[Type] =="Maven's Invitation: The Twisted" #	[StashItem]	 == "true" 		//釋界之邀：扭曲	拾取且存倉																						
 	//// 16F 六洞裝、六連裝 （不建議更動）			//																								
 //	[Sockets] == "6" && [Linked] >= "6"                          # [StashItem] =="true"     // Keep 6L6S			//																								
 	 [Sockets] == "6" && [Linked] >= "6"  && [Rarity] == "Normal" # [ForceSellItem] =="true" // Sell Normal 6L6S			//		六連裝備直接售出																						
