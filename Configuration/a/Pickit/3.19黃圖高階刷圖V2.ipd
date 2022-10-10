@@ -453,7 +453,7 @@
 	[Type] == "The Chosen" # 	[StashItem]	 == "true" // 5.0 C	//	天選之人(君主之膚-已汙染)	拾取且存倉																						
 	[Type] == "The Eldritch Decay" # 	[StashItem]	 == "true" // 5.0 C	//	怪異腐敗(終極尊師碎片)	拾取且存倉																						
 	[Type] == "The Progeny of Lunaris" # 	[StashItem]	 == "true" // 5.0 C	//	月神後嗣(滅日)	拾取且存倉																						
-	[Type] == "The Dapper Prodigy" # 	[StashItem]	 == "true" // 4.4 C	//	極致不凡(六連護甲-物品等級：100)	拾取且存倉																						
+	[Type] == "The Dapper Prodigy" # 	[ForceSellItem]	 == "true" // 4.4 C	//	極致不凡(六連護甲-物品等級：100)	拾取且存倉																						
 	[Type] == "A Familiar Call" # 	[StashItem]	 == "true" // 4.0 C	//	A Familiar Call	拾取且存倉																						
 	[Type] == "Immortal Resolve" # 	[StashItem]	 == "true" // 4.0 C	//	不朽決心(命運連結)	拾取且存倉																						
 	[Type] == "Remembrance" # 	[StashItem]	 == "true" // 4.0 C	//	我懷念的(先引之征-已汙染)	拾取且存倉																						
@@ -462,7 +462,7 @@
 	[Type] == "The Celestial Stone" # 	[StashItem]	 == "true" // 4.0 C	//	璀璨之石(蛋白石戒指-物品等級:100-塑者之物)	拾取且存倉																						
 	[Type] == "The Escape" # 	[StashItem]	 == "true" // 4.0 C	//	逃脫大師(盟誓之跡)	拾取且存倉																						
 	[Type] == "The Eternal War" # 	[StashItem]	 == "true" // 4.0 C	//	The Eternal War	拾取且存倉																						
-	[Type] == "The Porcupine" # 	[StashItem]	 == "true" // 4.0 C	//	刺蝟(六連短弓-物品等級:50)	拾取且存倉																						
+	[Type] == "The Porcupine" # 	[ForceSellItem]	 == "true" // 4.0 C	//	刺蝟(六連短弓-物品等級:50)	拾取且存倉																						
 	[Type] == "The Sephirot" # 	[StashItem]	 == "true" // 4.0 C	//	生命之樹(10x 神聖石)	拾取且存倉																						
 	[Type] == "The Sustenance" # 	[StashItem]	 == "true" // 4.0 C	//	The Sustenance	拾取且存倉																						
 	[Type] == "Underground Forest" # 	[StashItem]	 == "true" // 4.0 C	//	地底叢林(10x 製圖六分儀．覺醒)	拾取且存倉																						
@@ -470,7 +470,7 @@
 	[Type] == "Azyran's Reward" # 	[StashItem]	 == "true" // 3.0 C	//	艾斯尤倫的報酬(三相珠寶-已汙染)	拾取且存倉																						
 	[Type] == "Bijoux" # 	[StashItem]	 == "true" // 3.0 C	//	Bijoux	拾取且存倉																						
 	[Type] == "Brush, Paint and Palette" # 	[StashItem]	 == "true" // 3.0 C	//	Brush, Paint and Palette	拾取且存倉																						
-	[Type] == "Chaotic Disposition" # 	[StashItem]	 == "true" // 3.0 C	//	渾沌性情(5 X 混沌石)	拾取且存倉																						
+	[Type] == "Chaotic Disposition" # 	[ForceSellItem]	 == "true" // 3.0 C	//	渾沌性情(5 X 混沌石)	拾取且存倉																						
 	[Type] == "Chasing Risk" # 	[StashItem]	 == "true" // 3.0 C	//	Chasing Risk	拾取且存倉																						
 	[Type] == "Dying Light" # 	[StashItem]	 == "true" // 3.0 C	//	垂死之光	拾取且存倉																						
 	[Type] == "Fateful Meeting" # 	[StashItem]	 == "true" // 3.0 C	//	命運大會	拾取且存倉																						
@@ -487,9 +487,9 @@
 	[Type] == "A Note in the Wind" # 	[StashItem]	 == "true" // 2.0 C	//	A Note in the Wind	拾取且存倉																						
 	[Type] == "A Stone Perfected" # 	[StashItem]	 == "true" // 2.0 C	//	A Stone 完美的ed	拾取且存倉																						
 	[Type] == "Boon of the First Ones" # 	[StashItem]	 == "true" // 2.0 C	//	初始者的祝福(獸獵寓言之物)	拾取且存倉																						
-	[Type] == "Bowyer's Dream" # 	[StashItem]	 == "true" // 2.0 C	//	弓匠的夢想(六連先驅者之弓-物品等級：91)	拾取且存倉																						
+	[Type] == "Bowyer's Dream" # 	[ForceSellItem]	 == "true" // 2.0 C	//	弓匠的夢想(六連先驅者之弓-物品等級：91)	拾取且存倉																						
 	[Type] == "Brotherhood in Exile" # 	[StashItem]	 == "true" // 2.0 C	//	流亡兄弟會	拾取且存倉																						
-	[Type] == "Deathly Designs" # 	[StashItem]	 == "true" // 2.0 C	//	致死記號(等級21陷阱寶石-品質:+23%-已汙染)	拾取且存倉																						
+	[Type] == "Deathly Designs" # 	[ForceSellItem]	 == "true" // 2.0 C	//	致死記號(等級21陷阱寶石-品質:+23%-已汙染)	拾取且存倉																						
 	[Type] == "Desperate Crusade" # 	[StashItem]	 == "true" // 2.0 C	//	Desperate Crusade	拾取且存倉																						
 	[Type] == "Disdain" # 	[StashItem]	 == "true" // 2.0 C	//	Disdain	拾取且存倉																						
 	[Type] == "Emperor of Purity" # 	[ForceSellItem]	 == "true" // 2.0 C	//	純潔帝王(六連的聖語鎖甲-物品等級:60)	拾取且售出																						
@@ -586,7 +586,7 @@
 	[Type] == "Hubris" # 	[ForceSellItem]	 == "true" // 1.0 C	//	狂妄(戒指)	拾取且售出																						
 	[Type] == "Humility" # 	[ForceSellItem]	 == "true" // 1.0 C	//	謙遜(無盡之衣)	拾取且售出																						
 	[Type] == "Hunter's Resolve" # 	[ForceSellItem]	 == "true" // 1.0 C	//	獵者之願(弓)	拾取且售出																						
-	[Type] == "Imperial Legacy" # 	[StashItem]	 == "true" // 1.0 C	//	不朽聖物(六連帝國之弓-物品等級: 100)	拾取且存倉																						
+	[Type] == "Imperial Legacy" # 	[ForceSellItem]	 == "true" // 1.0 C	//	不朽聖物(六連帝國之弓-物品等級: 100)	拾取且存倉																						
 	[Type] == "Jack in the Box" # 	[ForceSellItem]	 == "true" // 1.0 C	//	驚喜盒(物品)	拾取且售出																						
 	[Type] == "Lantador's Lost Love" # 	[ForceSellItem]	 == "true" // 1.0 C	//	蘭塔朵迷惘之愛(雙玉戒指)	拾取且售出																						
 	[Type] == "Last Hope" # 	[ForceSellItem]	 == "true" // 1.0 C	//	最後希望(凡人的希望)	拾取且售出																						
@@ -634,7 +634,7 @@
 	[Type] == "The Cartographer" # 	[ForceSellItem]	 == "true" // 1.0 C	//	製圖師(10 x 製圖釘)	拾取且售出																						
 	[Type] == "The Cataclysm" # 	[ForceSellItem]	 == "true" // 1.0 C	//	巨變(等級 21 法術寶石)	拾取且售出																						
 	[Type] == "The Catalyst" # 	[ForceSellItem]	 == "true" // 1.0 C	//	災變(瓦爾寶珠)	拾取且售出																						
-	[Type] == "The Chains that Bind" # 	[StashItem]	 == "true" // 1.0 C	//	束縛之鍊(六連護具)	拾取且存倉																						
+	[Type] == "The Chains that Bind" # 	[ForceSellItem]	 == "true" // 1.0 C	//	束縛之鍊(六連護具)	拾取且存倉																						
 	[Type] == "The Coming Storm" # 	[ForceSellItem]	 == "true" // 1.0 C	//	風暴將至(雷語)	拾取且售出																						
 	[Type] == "The Conduit" # 	[ForceSellItem]	 == "true" // 1.0 C	//	雷針(多里亞尼之拳)	拾取且售出																						
 	[Type] == "The Craving" # 	[StashItem]	 == "true" // 1.0 C	//	想要(無盡渴望)	拾取且存倉																						
