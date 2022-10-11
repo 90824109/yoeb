@@ -48,7 +48,7 @@
 //	[Type] == "Glassblower's Bauble" # 	[StashItem]	 == "true"	//	//玻璃彈珠	不撿不存倉																						
 //	[Type] == "Blessed Orb" # 	[StashItem]	 == "true"	//	//祝福石	不撿不存倉																						
 	[Type] == "Chaos Orb" # 	[StashItem]	 == "true"	//	//混沌石	拾取且存倉																						
-//	[Type] == "Chromatic Orb" # 	[StashItem]	 == "true"	//	//幻色石	不撿不存倉																						
+	[Type] == "Chromatic Orb" # 	[StashItem]	 == "true"	//	//幻色石	不撿不存倉																						
 	[Type] == "Divine Orb" # 	[StashItem]	 == "true"	//	//神聖石	拾取且存倉																						
 	[Type] == "Exalted Orb" # 	[StashItem]	 == "true"	//	//崇高石	拾取且存倉																						
 	[Type] == "Gemcutter's Prism" # 	[StashItem]	 == "true"	//	//寶石匠的稜鏡	拾取且存倉																						
