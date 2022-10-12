@@ -48,7 +48,7 @@
 //	[Type] == "Glassblower's Bauble" # 	[StashItem]	 == "true"	//	//玻璃彈珠	不撿不存倉																						
 //	[Type] == "Blessed Orb" # 	[StashItem]	 == "true"	//	//祝福石	不撿不存倉																						
 	[Type] == "Chaos Orb" # 	[StashItem]	 == "true"	//	//混沌石	拾取且存倉																						
-	[Type] == "Chromatic Orb" # 	[StashItem]	 == "true"	//	//幻色石	不撿不存倉																						
+//	[Type] == "Chromatic Orb" # 	[StashItem]	 == "true"	//	//幻色石	不撿不存倉																						
 	[Type] == "Divine Orb" # 	[StashItem]	 == "true"	//	//神聖石	拾取且存倉																						
 	[Type] == "Exalted Orb" # 	[StashItem]	 == "true"	//	//崇高石	拾取且存倉																						
 	[Type] == "Gemcutter's Prism" # 	[StashItem]	 == "true"	//	//寶石匠的稜鏡	拾取且存倉																						
@@ -874,7 +874,7 @@
 				//																								
 	//// 17F 機會石點裝備 (機會石不足會造成爆倉 請謹慎開啟）			//																								
 //	[Type] == "Leather Belt"                # [ChanceItem] == "true" && [Rarity] == "Normal" // Headhunter(獵首)			//	//自動撿皮革點獵首	關閉中																						
-//	[Type] == "Heavy Belt"                # [ChanceItem] == "true" && [Rarity] == "Normal" // BloodMage			//	//自動撿重革點魔血	啟動中																						
+	[Type] == "Heavy Belt"                # [ChanceItem] == "true" && [Rarity] == "Normal" // BloodMage			//	//自動撿重革點魔血	啟動中																						
 //	[Type] == "Champion Kite Shield"                # [ChanceItem] == "true" && [Rarity] == "Normal" // AA盾			//	//自動撿鬥士鳶盾點AA盾	關閉中																						
 	//// 18F 藥水（預設關閉）			//																								
 				//																								
@@ -1712,7 +1712,7 @@
 //預設//	[Type]== "Archon Kite Shield" && [Rarity] == "Unique" # [local_display_summon_harbinger_x_on_equip] >= "3" && [ForceSellItem] == "true" // The Unshattered Will				//威能鳶盾	拾取且存倉																						
 	[Type] == "Boot Blade" && [Rarity] == "Unique" # [attack_critical_strike_damage_life_leech_permyriad] >= "1" && [ForceSellItem] == "true" // Widowmaker				//寡婦 戰亂劍	拾取且售出																						
 	[Type] == "Boot Knife" && [Rarity] == "Unique" # [block_while_dual_wielding_%] >= "1" && [ForceSellItem] == "true" // Ungil's Gauche				//恩吉爾的叉刃 戰亂刀	拾取且售出																						
-//預設//	[Type] == "Demon Dagger" && [Rarity] == "Unique" # [avatar_of_fire_rotation_active] >= "1" && [ForceSellItem] == "true" // Vulconus				//祝融鍛冶 惡魔短匕	拾取且存倉																						
+	[Type] == "Demon Dagger" && [Rarity] == "Unique" # [avatar_of_fire_rotation_active] >= "1" && [ForceSellItem] == "true" // Vulconus				//祝融鍛冶 惡魔短匕	拾取且存倉																						
 //預設//	[Type]== "Champion Kite Shield" && [Rarity] == "Unique" # [energy_shield_%_of_armour_rating_gained_on_block] >= "1" && [ForceSellItem] == "true" // Aegis Aurora				//幻芒聖盾 鬥士鳶盾	拾取且存倉																						
 //	// Evasion & Energy Shield Shields																											
 	[Type] == "Fiend Dagger" && [Rarity] == "Unique" # [chaos_damage_chance_to_poison_%] >= "1" && [ForceSellItem] == "true" // The Consuming Dark				//蠶食之闇 妖魔短匕	拾取且售出																						
