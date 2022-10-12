@@ -1712,7 +1712,7 @@
 //預設//	[Type]== "Archon Kite Shield" && [Rarity] == "Unique" # [local_display_summon_harbinger_x_on_equip] >= "3" && [ForceSellItem] == "true" // The Unshattered Will				//威能鳶盾	拾取且存倉																						
 	[Type] == "Boot Blade" && [Rarity] == "Unique" # [attack_critical_strike_damage_life_leech_permyriad] >= "1" && [ForceSellItem] == "true" // Widowmaker				//寡婦 戰亂劍	拾取且售出																						
 	[Type] == "Boot Knife" && [Rarity] == "Unique" # [block_while_dual_wielding_%] >= "1" && [ForceSellItem] == "true" // Ungil's Gauche				//恩吉爾的叉刃 戰亂刀	拾取且售出																						
-//預設//	[Type] == "Demon Dagger" && [Rarity] == "Unique" # [avatar_of_fire_rotation_active] >= "1" && [ForceSellItem] == "true" // Vulconus				//祝融鍛冶 惡魔短匕	拾取且存倉																						
+	[Type] == "Demon Dagger" && [Rarity] == "Unique" # [avatar_of_fire_rotation_active] >= "1" && [ForceSellItem] == "true" // Vulconus				//祝融鍛冶 惡魔短匕	拾取且存倉																						
 //預設//	[Type]== "Champion Kite Shield" && [Rarity] == "Unique" # [energy_shield_%_of_armour_rating_gained_on_block] >= "1" && [ForceSellItem] == "true" // Aegis Aurora				//幻芒聖盾 鬥士鳶盾	拾取且存倉																						
 //	// Evasion & Energy Shield Shields																											
 	[Type] == "Fiend Dagger" && [Rarity] == "Unique" # [chaos_damage_chance_to_poison_%] >= "1" && [ForceSellItem] == "true" // The Consuming Dark				//蠶食之闇 妖魔短匕	拾取且售出																						
