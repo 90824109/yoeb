@@ -532,7 +532,7 @@ Hide # 通貨 - 普通 - 神諭石碎片
     MinimapIcon 2 Green Diamond
     PlayEffect Red
 
-Show # 通貨 - 普通 - 古變石碎片
+Hide # 通貨 - 普通 - 古變石碎片
     Class "Currency"
     BaseType "Ancient Shard"
     SetTextColor 0 0 0
@@ -563,7 +563,7 @@ Show # 通貨 - 初始 - 傳送卷軸
     SetFontSize 40
     MinimapIcon 2 Blue Diamond
 
-Show # 通貨 - 初始 - 混沌石碎片
+Hide # 通貨 - 初始 - 混沌石碎片
     Class "Currency"
     BaseType "Chaos Shard"
     SetTextColor 0 0 0
@@ -581,7 +581,7 @@ Hide # 通貨 - 初始 - 富豪石碎片
     SetFontSize 40
     PlayAlertSound 9 300
 
-Show # 通貨 - 初始 - 改造石
+Hide # 通貨 - 初始 - 改造石
     Class "Currency"
     BaseType "Orb of Alteration"
     SetTextColor 0 0 0
@@ -608,7 +608,7 @@ Hide # 通貨 - 初始 - 工匠石
     SetFontSize 45
     PlayAlertSound 9 300
 
-Show # 通貨 - 初始 - 幻色石
+Hide # 通貨 - 初始 - 幻色石
     Class "Currency"
     BaseType "Chromatic Orb"
     SetTextColor 0 0 0
@@ -709,12 +709,12 @@ Hide # 通貨 - 垃圾 - 改造石碎片
     BaseType "Alteration Shard"
     SetTextColor 215 190 160
 
-Show # 通貨 - 垃圾 - 點金石碎片
+Hide # 通貨 - 垃圾 - 點金石碎片
     Class "Currency"
     BaseType "Alchemy Shard"
     SetTextColor 215 190 160
 
-Show # 通貨 - 垃圾 - 束縛石碎片
+Hide # 通貨 - 垃圾 - 束縛石碎片
     Class "Currency"
     BaseType "Binding Shard"
     SetTextColor 0 0 0
