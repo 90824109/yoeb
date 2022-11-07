@@ -819,9 +819,9 @@
 //	[Type] == "Small Cluster Jewel" && [Rarity] == "Normal" # [local_jewel_expansion_passive_node_count] = "3" && 	[StashItem]	 == "true" 	//	3天賦 小型 普通	不撿不存倉																						
 				//																								
 	//// 15F 輿圖			//																								
-	[Category] == "Map" && [MapTier] >= "1"  && [Rarity] == "Normal"  #	[StashItem]	 == "true" // 	//	普通地圖	普通地圖撿取，背包內普通地圖存倉																						
-	[Category] == "Map" && [MapTier] >= "1"  && [Rarity] == "Magic"  #	[StashItem]	 == "true" // 	//	藍地圖	藍地圖撿取，背包內藍地圖存倉																						
-	[Category] == "Map" && [MapTier] >= "1"  && [Rarity] == "Rare"  #	[StashItem]	 == "true" // 	//	黃地圖	黃地圖撿取，背包內黃地圖售出																						
+	[Category] == "Map" && [MapTier] >= "16"  && [Rarity] == "Normal"  #	[StashItem]	 == "true" // 	//	普通地圖	普通地圖撿取，背包內普通地圖存倉																						
+	[Category] == "Map" && [MapTier] >= "16"  && [Rarity] == "Magic"  #	[StashItem]	 == "true" // 	//	藍地圖	藍地圖撿取，背包內藍地圖存倉																						
+	[Category] == "Map" && [MapTier] >= "16"  && [Rarity] == "Rare"  #	[StashItem]	 == "true" // 	//	黃地圖	黃地圖撿取，背包內黃地圖售出																						
 	[Category] == "Map" && [MapTier] >= "1"  && [Rarity] == "Unique"  #	[ForceSellItem]	 == "true" // 	//	傳奇地圖	傳奇地圖撿取，背包內傳奇地圖售出																						
 	// Sacrifice Set			//																								
 //	[Type] == "Sacrifice at Dawn"        # 	[StashItem]	 == "true" 	//	//黎明的奉獻	不撿不存倉																						
@@ -1310,7 +1310,7 @@
 	[Type] == "Wool Shoes" && [Rarity] == "Unique" # [base_avoid_freeze_%] >= "1" && [ForceSellItem] == "true" // Wanderlust				//苦行之履 羊毛之鞋	拾取且售出																						
 	[Type]== "Coral Ring" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Bloodboil / Kaom's Sign / Kaom's Way / Sibyl's Lament / Winterweave				//冬織 珊瑚戒指	拾取且售出																						
 	[Type] == "Bronzescale Boots" && [Rarity] == "Unique" # [local_display_trigger_level_x_rain_of_arrows_on_bow_attack] >= "1" && [ForceSellItem] == "true" // Lioneye's Paws				//獅眼的鬥志 銅影長靴	拾取且售出																						
-	[Type] == "Dragonscale Boots" && [Rarity] == "Unique" # [max_frenzy_charges] >= "1" && [ForceSellItem] == "true" // Darkray Vectors				//暗雷 龍鱗長靴	拾取且售出																						
+	[Type] == "Dragonscale Boots" && [Rarity] == "Unique" # [max_frenzy_charges] >= "1" && [StashItem] == "true" // Darkray Vectors				//暗雷 龍鱗長靴	拾取且售出																						
 	[Type] == "Hydrascale Boots" && [Rarity] == "Unique" # [local_display_grants_skill_bird_aspect_level] >= "1" && [ForceSellItem] == "true" // Saqawal's Talons				//斯卡沃鷹爪 火蝮鱗長靴	拾取且售出																						
 	[Type] == "Ironscale Boots" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Dusktoe				//迎暮 鐵影長靴	拾取且售出																						
 	[Type] == "Ironscale Boots" && [Rarity] == "Unique" # [chaos_resistance_+_while_using_flask] >= "1" && [ForceSellItem] == "true" // Dusktoe				//迎暮 鐵影長靴	拾取且售出																						
@@ -1318,7 +1318,7 @@
 	[Type] == "Two-Toned Boots" && [Rarity] == "Unique" # [chance_to_deal_double_damage_while_affected_by_glorious_madness_%] >= "1" && [ForceSellItem] == "true" // Beacon of Madness Fire/Cold res, 2x Damage/Fortify Effect				//異色鞋	拾取且售出																						
 	[Type] == "Wyrmscale Boots" && [Rarity] == "Unique" # [scorched_earth_ground_scorch_duration_ms] >= "1" && [ForceSellItem] == "true" // Legacy of Fury				//地蝮鱗長靴	拾取且售出																						
 	[Type]== "Diamond Ring" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Gifts from Above / Romira's Banquet				//羅米拉的潛力之環 寶鑽戒指	拾取且售出																						
-	[Type]== "Gold Ring" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Andvarius / The Highwayman / Ventor's Gamble				//賭神芬多 金光戒指	拾取且售出																						
+	[Type]== "Gold Ring" && [Rarity] == "Unique" # [StashItem] == "true" // Andvarius / The Highwayman / Ventor's Gamble				//賭神芬多 金光戒指	拾取且售出																						
 	[Type]== "Iron Ring" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Blackheart / Circle of Guilt / Icefang Orbit / Le Heup of All / The Warden's Brand / Venopuncture / Voidheart				//虛空心靈 鍛鐵戒指	拾取且售出																						
 	[Type] == "Legion Boots" && [Rarity] == "Unique" # [damage_+%_vs_ignited_enemies] >= "1" && [ForceSellItem] == "true" // Gang's Momentum				//剛勇 軍團長靴	拾取且售出																						
 	[Type] == "Legion Boots" && [Rarity] == "Unique" # [local_socketed_aura_gem_level_+] >= "1" && [ForceSellItem] == "true" // March of the Legion				//軍閥行軍 軍團長靴	拾取且售出																						
@@ -1435,7 +1435,7 @@
 	[Type] == "Close Helmet" && [Rarity] == "Unique" # [minions_gain_your_strength] >= "1" && [ForceSellItem] == "true" // The Baron				//男爵 護面盔	拾取且售出																						
 	[Type] == "Eternal Burgonet" && [Rarity] == "Unique" # [local_physical_damage_reduction_rating_+%] >= "1" && [ForceSellItem] == "true"				// 篡位者的懺悔	拾取且售出																						
 //	// //																											
-	[Type] == "Ezomyte Burgonet" && [Rarity] == "Unique" # [physical_damage_taken_+%] > "44" && [melee_weapon_critical_strike_multiplier_+] < "120" && [ForceSellItem] == "true" // Abyssus				//深淵之喚 艾茲麥堅盔	拾取且售出																						
+	[Type] == "Ezomyte Burgonet" && [Rarity] == "Unique" # [physical_damage_taken_+%] > "44" && [melee_weapon_critical_strike_multiplier_+] < "120" && [StashItem] == "true" // Abyssus				//深淵之喚 艾茲麥堅盔	拾取且售出																						
 	[Type] == "Ezomyte Burgonet" && [Rarity] == "Unique" # [physical_damage_taken_+%] <= "40" && [melee_weapon_critical_strike_multiplier_+] >= "120" && [ForceSellItem] == "true" // Perf Abyssus				//艾茲麥堅盔	拾取且售出																						
 	[Type] == "Ezomyte Burgonet" && [Rarity] == "Unique" # [local_item_can_have_x_additional_enchantments] >= "1" && [ForceSellItem] == "true" // Cowl of the Thermophile				//艾茲麥堅盔	拾取且售出																						
 	[Type] == "Iron Hat" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Ezomyte Hold / Ezomyte Peak / Tear of Entropy				//亂世之淚 粗鐵盔	拾取且售出																						
