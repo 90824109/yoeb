@@ -52,7 +52,7 @@
 	[Type] == "Divine Orb" # 	[StashItem]	 == "true"	//	//神聖石	拾取且存倉																						
 	[Type] == "Exalted Orb" # 	[StashItem]	 == "true"	//	//崇高石	拾取且存倉																						
 	[Type] == "Gemcutter's Prism" # 	[StashItem]	 == "true"	//	//寶石匠的稜鏡	拾取且存倉																						
-	[Type] == "Jeweller's Orb" # 	[StashItem]	 == "true"	//	//工匠石	拾取且存倉																						
+//	[Type] == "Jeweller's Orb" # 	[StashItem]	 == "true"	//	//工匠石	拾取且存倉																						
 	[Type] == "Mirror of Kalandra" # 	[StashItem]	 == "true"	//	//卡蘭德的魔鏡	拾取且存倉																						
 //	[Type] == "Orb of Alchemy" # 	[StashItem]	 == "true"	//	//點金石	不撿不存倉																						
 //	[Type] == "Orb of Alteration" # 	[StashItem]	 == "true"	//	//改造石	不撿不存倉																						
@@ -66,7 +66,7 @@
 	[Type] == "Regal Orb" # 	[StashItem]	 == "true"	//	//富豪石	拾取且存倉																						
 	[Type] == "Silver Coin" # 	[StashItem]	 == "true"	//	//銀幣	拾取且存倉																						
 	[Type] == "Vaal Orb" # 	[StashItem]	 == "true"	//	//瓦爾寶珠	拾取且存倉																						
-	[Type] == "Cartographer's Chisel" # 	[StashItem]	 == "true"	//	//製圖釘	拾取且存倉																						
+//	[Type] == "Cartographer's Chisel" # 	[StashItem]	 == "true"	//	//製圖釘	拾取且存倉																						
 	[Type] == "Orb of Annulment"         # 	[StashItem]	 == "true"	//	//無效石	拾取且存倉																						
 //	[Type] == "Orb of Binding"                 # 	[StashItem]	 == "true"	//	//束縛石	不撿不存倉																						
 //	[Type] == "Orb of Horizons"         # 	[StashItem]	 == "true"	//	//地平石	不撿不存倉																						
