@@ -1329,7 +1329,7 @@
 	[Type]== "Moonstone Ring" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Heartbound Loop / Shavronne's Revelation / Timeclasp / Timetwist / Valyrium				//戰日 月光石戒指	拾取且售出																						
 	[Type]== "Opal Ring" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Mark of the Shaper / Stormfire				//烈風暴 蛋白石戒指	拾取且售出																						
 	[Type]== "Paua Ring" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Doedre's Damning / Fated End / Perandus Signet / Praxis				//普拉克斯 海靈戒指	拾取且售出																						
-	[Type]== "Prismatic Ring" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Lori's Lantern / Precursor's Emblem / The Taming / Thief's Torment				//竊罪 三相戒指	拾取且售出																						
+	[Type]== "Prismatic Ring" && [Rarity] == "Unique" # [StashItem] == "true" // Lori's Lantern / Precursor's Emblem / The Taming / Thief's Torment				//竊罪 三相戒指	拾取且售出																						
 	[Type]== "Ruby Ring" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Ahkeli's Meadow/Mountain/Valley / Circle of Anguish / Emberwake / Mokou's Embrace / Ngamahu's Sign / Precursor's Emblem / Warrior's Legacy				//戰士遺物 紅玉戒指	拾取且售出																						
 //基底勿改//	[Type] == "Carnal Boots" && [Rarity] == "Unique" # [local_display_trigger_corpse_walk_on_equip_level] >= "1" && [ForceSellItem] == "true" // Corpsewalker				//禁禮之靴(行屍走肉)	拾取且存倉																						
 	[Type]== "Sapphire Ring" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Circle of Fear / Dream Fragments / Precursor's Emblem / Pyre / Snakepit / Tasalio's Sign / Uzaza's Meadow/Mountain/Valley				//藍玉戒指	拾取且售出																						
