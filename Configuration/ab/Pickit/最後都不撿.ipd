@@ -854,7 +854,7 @@
 //	[Type] == "Fragment of Emptiness"    # 	[StashItem]	 == "true" 	//	//空虛斷片	不撿不存倉																						
 //	[Type] == "Fragment of Terror"       # 	[StashItem]	 == "true" 	//	//恐懼斷片	不撿不存倉																						
 //	// Other			//	//其它																							
-//	[Type] == "Divine Vessel"            # 	[ForceSellItem]	 == "true" 	//	//眾神聖器	不撿不售出																						
+	[Type] == "Divine Vessel"            # 	[ForceSellItem]	 == "true" 	//	//眾神聖器	不撿不售出																						
 	[Type] =="Incandescent Invitation" #	[StashItem]	 == "true" 	//	//熾熱之邀	拾取且存倉																						
 	[Type] =="Polaric Invitation" #	[ForceSellItem]	 == "true" 	//	//極地之邀	拾取且售出																						
 	[Type] == "Screaming Invitation" #	[StashItem]	 == "true" 	//	//尖哮之邀	拾取且存倉																						
