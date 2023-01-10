@@ -39,7 +39,7 @@
 //	[Type] == "Alteration Shard" # 	[StashItem]	 == "true"	//	//改造石碎片	不撿不存倉																						
 //	[Type] == "Scroll Fragment" # 	[StashItem]	 == "true"	//	//卷軸碎片	不撿不存倉																						
 //	[Type] == "Transmutation Shard" # 	[StashItem]	 == "true"	//	//蛻變石碎片	不撿不存倉																						
-//	[Type] == "Instilling Orb" #	[StashItem]	 == "true"	//	//滴注石	不撿不存倉																						
+	[Type] == "Instilling Orb" #	[StashItem]	 == "true"	//	//滴注石	不撿不存倉																						
 //	[Type] =="Enkindling Orb"#	[StashItem]	 == "true"	//	//點燃石	不撿不存倉																						
 //特例請勿更動//	[Type] == "Wisdom Scroll" # 	[StashItem]	 == "true"	//	//知識卷軸	不撿不存倉																						
 //特例請勿更動//	[Type] == "Portal Scroll" # 	[StashItem]	 == "true"	//	//傳送卷軸	不撿不存倉																						
@@ -51,7 +51,7 @@
 //	[Type] == "Chromatic Orb" # 	[StashItem]	 == "true"	//	//幻色石	不撿不存倉																						
 	[Type] == "Divine Orb" # 	[StashItem]	 == "true"	//	//神聖石	拾取且存倉																						
 	[Type] == "Exalted Orb" # 	[StashItem]	 == "true"	//	//崇高石	拾取且存倉																						
-//	[Type] == "Gemcutter's Prism" # 	[StashItem]	 == "true"	//	//寶石匠的稜鏡	不撿不存倉																						
+	[Type] == "Gemcutter's Prism" # 	[StashItem]	 == "true"	//	//寶石匠的稜鏡	不撿不存倉																						
 //	[Type] == "Jeweller's Orb" # 	[StashItem]	 == "true"	//	//工匠石	不撿不存倉																						
 	[Type] == "Mirror of Kalandra" # 	[StashItem]	 == "true"	//	//卡蘭德的魔鏡	拾取且存倉																						
 //	[Type] == "Orb of Alchemy" # 	[StashItem]	 == "true"	//	//點金石	不撿不存倉																						
