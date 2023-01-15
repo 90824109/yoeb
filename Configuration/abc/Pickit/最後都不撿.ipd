@@ -834,9 +834,9 @@
 //	[Type] == "Small Cluster Jewel" && [Rarity] == "Normal" # [local_jewel_expansion_passive_node_count] = "3" && 	[StashItem]	 == "true" 	//	3天賦 小型 普通	不撿不存倉																						
 				//																								
 	//// 15F 輿圖			//																								
-	[Category] == "Map" && [MapTier] >= "1"  && [Rarity] == "Normal"  #	[StashItem]	 == "true" // 	//	普通地圖	普通地圖撿取，背包內普通地圖存倉																						
-	[Category] == "Map" && [MapTier] >= "1"  && [Rarity] == "Magic"  #	[StashItem]	 == "true" // 	//	藍地圖	藍地圖撿取，背包內藍地圖存倉																						
-	[Category] == "Map" && [MapTier] >= "1"  && [Rarity] == "Rare"  #	[StashItem]	 == "true" // 	//	黃地圖	黃地圖撿取，背包內黃地圖存倉																						
+	[Category] == "Map" && [MapTier] >= "16"  && [Rarity] == "Normal"  #	[StashItem]	 == "true" // 	//	普通地圖	普通地圖撿取，背包內普通地圖存倉																						
+	[Category] == "Map" && [MapTier] >= "16"  && [Rarity] == "Magic"  #	[StashItem]	 == "true" // 	//	藍地圖	藍地圖撿取，背包內藍地圖存倉																						
+	[Category] == "Map" && [MapTier] >= "16"  && [Rarity] == "Rare"  #	[StashItem]	 == "true" // 	//	黃地圖	黃地圖撿取，背包內黃地圖存倉																						
 	[Category] == "Map" && [MapTier] >= "1"  && [Rarity] == "Unique"  #	[StashItem]	 == "true" // 	//	傳奇地圖	傳奇地圖撿取，背包內傳奇地圖存倉																						
 	[Type] == "Synthesised Map" # 	[StashItem]	 == "true" // 	//	追憶及深層記憶	追憶及深層記憶撿取，背包內追憶及深層記憶存倉																						
 	// Sacrifice Set			//																								
@@ -890,7 +890,7 @@
 				//																								
 	//// 17F 機會石點裝備 (機會石不足會造成爆倉 請謹慎開啟）			//																								
 //	[Type] == "Leather Belt"                # [ChanceItem] == "true" && [Rarity] == "Normal" // Headhunter(獵首)			//	//自動撿皮革點獵首	關閉中																						
-//	[Type] == "Heavy Belt"                # [ChanceItem] == "true" && [Rarity] == "Normal" // BloodMage			//	//自動撿重革點魔血	關閉中																						
+	[Type] == "Heavy Belt"                # [ChanceItem] == "true" && [Rarity] == "Normal" // BloodMage			//	//自動撿重革點魔血	關閉中																						
 //	[Type] == "Champion Kite Shield"                # [ChanceItem] == "true" && [Rarity] == "Normal" // AA盾			//	//自動撿鬥士鳶盾點AA盾	關閉中																						
 	//// 18F 藥水（預設關閉）			//																								
 				//																								
@@ -930,16 +930,16 @@
 //	 [Type] == "Bismuth Flask" # 	[StashItem]	 == "true" 	//	//灰岩藥劑	不撿不存倉																						
 //	 [Type] == "Stibnite Flask" # 	[StashItem]	 == "true" 	//	//迷霧藥劑	不撿不存倉																						
 //	 [Type] == "Amethyst Flask" # 	[StashItem]	 == "true" 	//	//紫晶藥劑	不撿不存倉																						
-//	 [Type] == "Ruby Flask" # 	[StashItem]	 == "true" 	//	//紅玉藥劑	不撿不存倉																						
+	 [Type] == "Ruby Flask" # 	[StashItem]	 == "true" 	//	//紅玉藥劑	不撿不存倉																						
 //	 [Type] == "Sapphire Flask" # 	[StashItem]	 == "true" 	//	//藍玉藥劑	不撿不存倉																						
 //	 [Type] == "Topaz Flask" # 	[StashItem]	 == "true" 	//	//黃玉藥劑	不撿不存倉																						
 //	 [Type] == "Silver Flask" # 	[StashItem]	 == "true" 	//	//真銀藥劑	不撿不存倉																						
 //	 [Type] == "Aquamarine Flask" # 	[StashItem]	 == "true" 	//	//海藍藥劑	不撿不存倉																						
-//	 [Type] == "Diamond Flask" # 	[StashItem]	 == "true" 	//	//寶鑽藥劑	不撿不存倉																						
+	 [Type] == "Diamond Flask" # 	[StashItem]	 == "true" 	//	//寶鑽藥劑	不撿不存倉																						
 //	 [Type] == "Granite Flask" # 	[StashItem]	 == "true" 	//	//堅岩藥劑	不撿不存倉																						
 //	 [Type] == "Jade Flask" # 	[StashItem]	 == "true" 	//	//翠玉藥劑	不撿不存倉																						
-//	 [Type] == "Quartz Flask" # 	[StashItem]	 == "true" 	//	//石英藥劑	不撿不存倉																						
-//	 [Type] == "Sulphur Flask" # 	[StashItem]	 == "true" 	//	//硫磺藥劑	不撿不存倉																						
+	 [Type] == "Quartz Flask" # 	[StashItem]	 == "true" 	//	//石英藥劑	不撿不存倉																						
+	 [Type] == "Sulphur Flask" # 	[StashItem]	 == "true" 	//	//硫磺藥劑	不撿不存倉																						
 //	 [Type] == "Basalt Flask" # 	[StashItem]	 == "true" 	//	//石化藥劑	不撿不售出																						
 				//																								
 	//// 19F 聖甲蟲			//																								
