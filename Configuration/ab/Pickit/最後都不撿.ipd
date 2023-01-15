@@ -118,7 +118,8 @@
 	[Type]=="Tainted Divine Teardrop" #	[StashItem]	 == "true"	//	//被污染的神聖淚珠	拾取且存倉																						
 //	//3.20新增之通貨//																											
 	[Type]=="Fracturing Orb" #	[StashItem]	 == "true"		//破裂石	拾取且存倉																						
-	[Type]=="Fracturing Shard" #	[StashItem]	 == "true"		//破裂石碎片	拾取且存倉																						
+	[Type]=="Fracturing Shard" #	[StashItem]	 == "true"		//破裂石碎片	拾取且存倉
+    [Type] == "Voidborn Reliquary Key"   # [StashItem]  == "true"  //虛誕遺鑰  拾取且存倉	
 																												
 	//// 3F 瞻妄物品			//																								
 	[Type] == "Abyssal Delirium Orb" # 	[StashItem]	 == "true"	//	//深淵之譫妄玉	拾取且存倉																						
