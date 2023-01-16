@@ -118,8 +118,8 @@
 	[Type]=="Tainted Divine Teardrop" #	[StashItem]	 == "true"	//	//被污染的神聖淚珠	拾取且存倉																						
 //	//3.20新增之通貨//																											
 	[Type]=="Fracturing Orb" #	[StashItem]	 == "true"		//破裂石	拾取且存倉																						
-	[Type]=="Fracturing Shard" #	[StashItem]	 == "true"		//破裂石碎片	拾取且存倉
-    [Type] == "Voidborn Reliquary Key"   # [StashItem]  == "true"  //虛誕遺鑰  拾取且存倉	
+	[Type]=="Fracturing Shard" #	[StashItem]	 == "true"		//破裂石碎片	拾取且存倉																						
+	[Type] == "Voidborn Reliquary Key" #	[StashItem]	 == "true"		//虛誕遺鑰	拾取且存倉																						
 																												
 	//// 3F 瞻妄物品			//																								
 	[Type] == "Abyssal Delirium Orb" # 	[StashItem]	 == "true"	//	//深淵之譫妄玉	拾取且存倉																						
@@ -835,9 +835,9 @@
 //	[Type] == "Small Cluster Jewel" && [Rarity] == "Normal" # [local_jewel_expansion_passive_node_count] = "3" && 	[StashItem]	 == "true" 	//	3天賦 小型 普通	不撿不存倉																						
 				//																								
 	//// 15F 輿圖			//																								
-	[Category] == "Map" && [MapTier] >= "16"  && [Rarity] == "Normal"  #	[StashItem]	 == "true" // 	//	普通地圖	普通地圖撿取，背包內普通地圖存倉																						
-	[Category] == "Map" && [MapTier] >= "16"  && [Rarity] == "Magic"  #	[StashItem]	 == "true" // 	//	藍地圖	藍地圖撿取，背包內藍地圖存倉																						
-	[Category] == "Map" && [MapTier] >= "16"  && [Rarity] == "Rare"  #	[StashItem]	 == "true" // 	//	黃地圖	黃地圖撿取，背包內黃地圖存倉																						
+	[Category] == "Map" && [MapTier] >= "1"  && [Rarity] == "Normal"  #	[StashItem]	 == "true" // 	//	普通地圖	普通地圖撿取，背包內普通地圖存倉																						
+	[Category] == "Map" && [MapTier] >= "1"  && [Rarity] == "Magic"  #	[StashItem]	 == "true" // 	//	藍地圖	藍地圖撿取，背包內藍地圖存倉																						
+	[Category] == "Map" && [MapTier] >= "1"  && [Rarity] == "Rare"  #	[StashItem]	 == "true" // 	//	黃地圖	黃地圖撿取，背包內黃地圖存倉																						
 	[Category] == "Map" && [MapTier] >= "1"  && [Rarity] == "Unique"  #	[StashItem]	 == "true" // 	//	傳奇地圖	傳奇地圖撿取，背包內傳奇地圖存倉																						
 	[Type] == "Synthesised Map" # 	[StashItem]	 == "true" // 	//	追憶及深層記憶	追憶及深層記憶撿取，背包內追憶及深層記憶存倉																						
 	// Sacrifice Set			//																								
@@ -891,7 +891,7 @@
 				//																								
 	//// 17F 機會石點裝備 (機會石不足會造成爆倉 請謹慎開啟）			//																								
 //	[Type] == "Leather Belt"                # [ChanceItem] == "true" && [Rarity] == "Normal" // Headhunter(獵首)			//	//自動撿皮革點獵首	關閉中																						
-	[Type] == "Heavy Belt"                # [ChanceItem] == "true" && [Rarity] == "Normal" // BloodMage			//	//自動撿重革點魔血	關閉中																						
+	[Type] == "Heavy Belt"                # [ChanceItem] == "true" && [Rarity] == "Normal" // BloodMage			//	//自動撿重革點魔血	啟動中																						
 //	[Type] == "Champion Kite Shield"                # [ChanceItem] == "true" && [Rarity] == "Normal" // AA盾			//	//自動撿鬥士鳶盾點AA盾	關閉中																						
 	//// 18F 藥水（預設關閉）			//																								
 				//																								
@@ -931,16 +931,16 @@
 //	 [Type] == "Bismuth Flask" # 	[StashItem]	 == "true" 	//	//灰岩藥劑	不撿不存倉																						
 //	 [Type] == "Stibnite Flask" # 	[StashItem]	 == "true" 	//	//迷霧藥劑	不撿不存倉																						
 //	 [Type] == "Amethyst Flask" # 	[StashItem]	 == "true" 	//	//紫晶藥劑	不撿不存倉																						
-	 [Type] == "Ruby Flask" # 	[StashItem]	 == "true" 	//	//紅玉藥劑	不撿不存倉																						
+//	 [Type] == "Ruby Flask" # 	[StashItem]	 == "true" 	//	//紅玉藥劑	不撿不存倉																						
 //	 [Type] == "Sapphire Flask" # 	[StashItem]	 == "true" 	//	//藍玉藥劑	不撿不存倉																						
 //	 [Type] == "Topaz Flask" # 	[StashItem]	 == "true" 	//	//黃玉藥劑	不撿不存倉																						
 //	 [Type] == "Silver Flask" # 	[StashItem]	 == "true" 	//	//真銀藥劑	不撿不存倉																						
 //	 [Type] == "Aquamarine Flask" # 	[StashItem]	 == "true" 	//	//海藍藥劑	不撿不存倉																						
-	 [Type] == "Diamond Flask" # 	[StashItem]	 == "true" 	//	//寶鑽藥劑	不撿不存倉																						
+//	 [Type] == "Diamond Flask" # 	[StashItem]	 == "true" 	//	//寶鑽藥劑	不撿不存倉																						
 //	 [Type] == "Granite Flask" # 	[StashItem]	 == "true" 	//	//堅岩藥劑	不撿不存倉																						
 //	 [Type] == "Jade Flask" # 	[StashItem]	 == "true" 	//	//翠玉藥劑	不撿不存倉																						
-	 [Type] == "Quartz Flask" # 	[StashItem]	 == "true" 	//	//石英藥劑	不撿不存倉																						
-	 [Type] == "Sulphur Flask" # 	[StashItem]	 == "true" 	//	//硫磺藥劑	不撿不存倉																						
+//	 [Type] == "Quartz Flask" # 	[StashItem]	 == "true" 	//	//石英藥劑	不撿不存倉																						
+//	 [Type] == "Sulphur Flask" # 	[StashItem]	 == "true" 	//	//硫磺藥劑	不撿不存倉																						
 //	 [Type] == "Basalt Flask" # 	[StashItem]	 == "true" 	//	//石化藥劑	不撿不售出																						
 				//																								
 	//// 19F 聖甲蟲			//																								
@@ -1321,7 +1321,7 @@
 	[Type] == "Silk Slippers" && [Rarity] == "Unique" # [raise_spectre_gem_level_+] >= "1" && [ForceSellItem] == "true" // Bones of Ullr				//烏勒爾之骨 絲綢便鞋	拾取且售出																						
 //	//////////////////////////////////////////////																											
 //	// Keep all for Loreweave recipe																											
-//3.19過度//	[Type]== "Amethyst Ring" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Blackflame / Circle of Nostalgia / Death Rush / Ming's Heart				//明恩的慧心 亡者呼喚 紫晶戒指	拾取且存倉																						
+	[Type]== "Amethyst Ring" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Blackflame / Circle of Nostalgia / Death Rush / Ming's Heart				//明恩的慧心 亡者呼喚 紫晶戒指	拾取且售出																						
 	[Type] == "Sorcerer Boots" && [Rarity] == "Unique" # [unaffected_by_desecrated_ground] >= "1" && [ForceSellItem] == "true" // Steppan Eard				//絕地魔履 術士長靴	拾取且售出																						
 	[Type] == "Velvet Slippers" && [Rarity] == "Unique" # [item_found_rarity_+%_when_on_low_life] >= "1" && [ForceSellItem] == "true" // Wondertrap				//迴光之跡 絲絨便鞋	拾取且售出																						
 	[Type] == "Wool Shoes" && [Rarity] == "Unique" # [base_avoid_freeze_%] >= "1" && [ForceSellItem] == "true" // Wanderlust				//苦行之履 羊毛之鞋	拾取且售出																						
@@ -1408,7 +1408,7 @@
 	[Type] == "Crusader Gloves" && [Rarity] == "Unique" # [strong_casting] >= "1" && [ForceSellItem] == "true" // Repentance				//悔悟之掌 聖戰手套	拾取且售出																						
 	[Type] == "Crusader Gloves" && [Rarity] == "Unique" # [X_life_per_4_dexterity] >= "1" && [ForceSellItem] == "true" // Shaper's Touch				//塑者之觸 聖戰手套	拾取且售出																						
 //預設//	[Type]== "Astral Plate" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Death's Oath / Blunderbore				//星芒戰鎧	拾取且存倉																						
-//預設//	[Type] == "Legion Gloves" && [Rarity] == "Unique" # [dispel_status_ailments_on_rampage_threshold] >= "1" && [ForceSellItem] == "true" // Null and Void				//虛空 軍團手套	拾取且存倉																						
+	[Type] == "Legion Gloves" && [Rarity] == "Unique" # [dispel_status_ailments_on_rampage_threshold] >= "1" && [ForceSellItem] == "true" // Null and Void				//虛空 軍團手套	拾取且售出																						
 //預設//	[Type]== "Gladiator Plate" && [Rarity] == "Unique" # [ForceSellItem] == "true" // The Brass Dome				//堅銅戰罩 角鬥重鎧	拾取且存倉																						
 	[Type] == "Mesh Gloves" && [Rarity] == "Unique" # [minion_base_physical_damage_%_to_convert_to_chaos_per_white_socket_on_item] >= "1" && [ForceSellItem] == "true" // Triad Grip				//三弦指法 網眼手套	拾取且售出																						
 	[Type] == "Riveted Gloves" && [Rarity] == "Unique" # [local_has_X_abyss_sockets] >= "1" && [ForceSellItem] == "true" // Command of the Pit w/ 1+ abyssal sockets				//儀式手套	拾取且售出																						
@@ -1751,7 +1751,7 @@
 	[Type] == "Nightmare Mace" && [Rarity] == "Unique" # [chaos_damage_resistance_%_per_endurance_charge] >= "1" && [ForceSellItem] == "true" // Nebuloch				//銀河眾星 夢魘之錘	拾取且售出																						
 	[Type] == "Ornate Mace" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Frostbreath				//霜息 華麗之錘	拾取且售出																						
 	[Type] == "Ornate Mace" && [Rarity] == "Unique" # [local_double_damage_to_chilled_enemies] >= "1" && [ForceSellItem] == "true" // Frostbreath				//霜息 華麗之錘	拾取且售出																						
-//3.19過度//	[Type] == "Rock Breaker" && [Rarity] == "Unique" #  [ForceSellItem] == "true" // Clayshaper				//塑泥者 破岩錘	拾取且存倉																						
+	[Type] == "Rock Breaker" && [Rarity] == "Unique" #  [ForceSellItem] == "true" // Clayshaper				//塑泥者 破岩錘	拾取且售出																						
 	[Type] == "Spiked Club" && [Rarity] == "Unique" # [extra_gore] >= "1" && [ForceSellItem] == "true" // Gorebreaker				//血裂 鈍釘木棒	拾取且售出																						
 	[Type] == "War Hammer" && [Rarity] == "Unique" # [local_critical_strike_chance_+%] >= "1" && [ForceSellItem] == "true" // Brightbeak				//光耀之錘 戰錘	拾取且售出																						
 	[Type] == "War Hammer" && [Rarity] == "Unique" # [area_damage_+%] >= "1" && [ForceSellItem] == "true" // Lavianga's Wisdom				//拉維安加的智慧 戰錘	拾取且售出																						
