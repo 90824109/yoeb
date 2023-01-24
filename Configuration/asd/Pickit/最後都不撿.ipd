@@ -837,7 +837,7 @@
 	//// 15F 輿圖			//																								
 	[Category] == "Map" && [MapTier] >= "16"  && [Rarity] == "Normal"  #	[StashItem]	 == "true" // 	//	普通地圖	普通地圖撿取，背包內普通地圖存倉																						
 	[Category] == "Map" && [MapTier] >= "16"  && [Rarity] == "Magic"  #	[StashItem]	 == "true" // 	//	藍地圖	藍地圖撿取，背包內藍地圖存倉																						
-	[Category] == "Map" && [MapTier] >= "16"  && [Rarity] == "Rare"  #	[StashItem]	 == "true" // 	//	黃地圖	黃地圖撿取，背包內黃地圖存倉																						
+	[Category] == "Map" && [MapTier] >= "16"  && [Rarity] == "Rare"  #	[ForceSellItem]	 == "true" // 	//	黃地圖	黃地圖撿取，背包內黃地圖存倉																						
 	[Category] == "Map" && [MapTier] >= "1"  && [Rarity] == "Unique"  #	[StashItem]	 == "true" // 	//	傳奇地圖	傳奇地圖撿取，背包內傳奇地圖存倉																						
 	[Type] == "Synthesised Map" # 	[StashItem]	 == "true" // 	//	追憶及深層記憶	追憶及深層記憶撿取，背包內追憶及深層記憶存倉																						
 	// Sacrifice Set			//																								
@@ -873,9 +873,9 @@
 //	// Other			//	//其它																							
 //	[Type] == "Divine Vessel"            # 	[ForceSellItem]	 == "true" 	//	//眾神聖器	不撿不售出																						
 	[Type] =="Incandescent Invitation" #	[StashItem]	 == "true" 	//	//熾熱之邀	拾取且存倉																						
-	[Type] =="Polaric Invitation" #	[StashItem]	 == "true" 	//	//極地之邀	拾取且存倉																						
+//	[Type] =="Polaric Invitation" #	[StashItem]	 == "true" 	//	//極地之邀	拾取且存倉																						
 	[Type] == "Screaming Invitation" #	[StashItem]	 == "true" 	//	//尖哮之邀	拾取且存倉																						
-	[Type] =="Writhing Invitation" #	[StashItem]	 == "true" 	//	//纏繞之邀	拾取且存倉																						
+//	[Type] =="Writhing Invitation" #	[StashItem]	 == "true" 	//	//纏繞之邀	拾取且存倉																						
 	[Type] =="Maven's Invitation: The Elderslayers" #	[StashItem]	 == "true" 		//殺手	拾取且存倉																						
 	[Type] =="Maven's Invitation: The Forgotten" #	[StashItem]	 == "true" 		//釋界之邀：遺忘	拾取且存倉																						
 	[Type] =="Maven's Invitation: The Formed" #	[StashItem]	 == "true" 		//釋界之邀：塑型	拾取且存倉																						
