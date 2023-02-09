@@ -86,10 +86,10 @@
 [Type] == "Enlighten Support" #[StashItem] == "true"////啟蒙輔助拾取且存倉
 [Type] == "The Apothecary" #[StashItem] == "true"////(魔血 5/5)拾取且存倉
 [Type] =="Incandescent Invitation" #[StashItem] == "true" ////熾熱之邀拾取且存倉
-[Type] =="Polaric Invitation" #[StashItem] == "true" ////極地之邀不撿不存倉
+//[Type] =="Polaric Invitation" #[StashItem] == "true" ////極地之邀不撿不存倉
 [Type] == "Screaming Invitation" #[StashItem] == "true" ////尖哮之邀拾取且存倉
 [Type] =="Writhing Invitation" #[StashItem] == "true" ////纏繞之邀不撿不存倉
-[Type] == "Humility" # [StashItem] == "true" // 1.0 C//謙遜(無盡之衣)拾取且存倉
+//[Type] == "Humility" # [StashItem] == "true" // 1.0 C//謙遜(無盡之衣)拾取且存倉
 [Type] == "House of Mirrors" # [StashItem] == "true" // 2220 C//明鏡(卡蘭德的魔鏡)拾取且存倉30E
 [Type] == "The Doctor" # [StashItem] == "true" // 1536 C//瘋醫(獵首)拾取且存倉8E
 [Type] == "The Demon" # [StashItem] == "true" // 1200 C//惡魔(獵首-兩個固定詞綴-已汙染)拾取且存倉6E
@@ -154,7 +154,7 @@
     //機會
 	[Type] == "Heavy Belt"                # [ChanceItem] == "true" && [Rarity] == "Normal" // BloodMage			//	//自動撿重革點魔血	啟動中	
 	
-    [Type]== "Gold Ring" && [Rarity] == "Unique" # [StashItem] == "true" // Andvarius / The Highwayman / Ventor's Gamble				//賭神芬多 金光戒指	拾取
+    [Type]== "Gold Ring" && [Rarity] == "Unique" # [fire_resistance] && [StashItem] == "true" //Ventor's Gamble				//賭神芬多 金光戒指	拾取
     //刀
 	[Type] == "Imperial Skean" && [Rarity] == "Unique" # [increased_attack_speed] && [StashItem] == "true" // White Wind				//白風 帝國雙刃匕	拾取
 	//頭盔
@@ -173,6 +173,11 @@
 	[Type] == "Crimson Jewel" && [Rarity] == "Unique" # [passive_jewel_grants_radius] && [StashItem] == "true" // The Taming     //求知的熱情   拾取
 	//直覺之躍
 	[Type] == "Viridian Jewel" && [Rarity] == "Unique" # [passive_jewel_grants_radius] && [StashItem] == "true" // The Taming     //直覺之躍   拾取
+	
+	
+	[Type]== "Prismatic Ring" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Lori's Lantern / Precursor's Emblem / The Taming / Thief's Torment				//竊罪 三相戒指	拾取且售出
+	[Type] == "Clasped Mitts" && [Rarity] == "Unique" # [zombies_need_no_corpses] && [ForceSellItem] == "true" // Aukuna's Will				//奧庫納之意 環帶護手	拾取且售出	
+	
 	
 	
 	
