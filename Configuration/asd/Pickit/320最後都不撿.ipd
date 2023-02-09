@@ -160,7 +160,7 @@
 	//頭盔
 	[Type] == "Ezomyte Burgonet" && [Rarity] == "Unique" # [physical_damage_taken] && [StashItem] == "true" // Abyssus				//深淵之喚 艾茲麥堅盔	拾取																																																														
 	//手套
-	[Type]== "Clasped Mitts" && [Rarity] == "Unique" # [simulated_rampage] && [StashItem] == "true" // Shadows and Dust				//沙塵之影 環帶護手	拾取
+	[Type]== "Clasped Mitts" && [Rarity] == "Unique" # [ground_smoke_on_rampage] && [StashItem] == "true" // Shadows and Dust				//沙塵之影 環帶護手	拾取
 	//靴子
 	[Type] == "Dragonscale Boots" && [Rarity] == "Unique" # [maximum_frenzy_charges]&& [StashItem] == "true" // Darkray Vectors				//暗雷 龍鱗長靴	拾取
 	//項鍊
@@ -175,9 +175,18 @@
 	[Type] == "Viridian Jewel" && [Rarity] == "Unique" # [passive_jewel_grants_radius] && [StashItem] == "true" // The Taming     //直覺之躍   拾取
 	
 	
-	[Type]== "Prismatic Ring" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Lori's Lantern / Precursor's Emblem / The Taming / Thief's Torment				//竊罪 三相戒指	拾取且售出
-	[Type] == "Clasped Mitts" && [Rarity] == "Unique" # [zombies_need_no_corpses] && [ForceSellItem] == "true" // Aukuna's Will				//奧庫納之意 環帶護手	拾取且售出	
+	[Type]== "Prismatic Ring" && [Rarity] == "Unique" # [life_gain_per_target] && [ForceSellItem] == "true" // Thief's Torment				//竊罪 三相戒指	拾取且售出
+	
+	[Type]== "Gold Ring" && [Rarity] == "Unique" # [steal_charges] && [ForceSellItem] == "true" // The Highwayman			//高尚之人  金光戒指	拾取且售出
+	[Type]== "Gold Ring" && [Rarity] == "Unique" # [all_resistances] && [ForceSellItem] == "true" // Andvarius			//貪慾之記  金光戒指	拾取且售出	
+	[Type]== "Jade Amulet" && [Rarity] == "Unique" # [alternate_fortify] && [ForceSellItem] == "true" // Willowgift			//柳木之禮  翠玉護身符	拾取且售出
+	[Type]== "Jade Amulet" && [Rarity] == "Unique" # [projectile_speed] && [ForceSellItem] == "true" // Karui Ward			//卡魯的戰徽   翠玉護身符	拾取且售出
+	[Type]== "Jade Amulet" && [Rarity] == "Unique" # [granted_skill] && [ForceSellItem] == "true" // Hyrri's Truth			//西里的真理  翠玉護身符	拾取且售出
+	[Type]== "Amethyst Ring" && [Rarity] == "Unique" # [physical_damage_%_to_add_as_chaos] && [ForceSellItem] == "true" // Ming's Heart			//明恩的慧心  紫晶戒指	拾取且售出
+	
+	[Type]== "Clasped Mitts" && [Rarity] == "Unique" # [raise_zombie_does_not_use_corpses] && [StashItem] == "true" // Aukuna's Will				//沙塵之影 環帶護手	拾取
 	
 	
+
 	
 	
