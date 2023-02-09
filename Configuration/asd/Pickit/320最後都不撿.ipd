@@ -50,7 +50,7 @@
 [Type]=="Tainted Blacksmith's Whetstone" # [StashItem]  == "true"
 [Type]=="Tainted Divine Teardrop" # [StashItem]  == "true"
   
-
+[Type] == "Rogue's Marker" # [StashItem] == "true"////盜賊之印拾取且存倉
 //[Type] == "Orb of Alteration" # [StashItem] == "true"////改造石拾取且存倉
 [Type] == "Chaos Orb" # [StashItem] == "true"////混沌石拾取且存倉
 [Type] == "Divine Orb" # [StashItem] == "true"////神聖石拾取且存倉
@@ -173,4 +173,6 @@
 	[Type] == "Crimson Jewel" && [Rarity] == "Unique" # [passive_jewel_grants_radius] && [StashItem] == "true" // The Taming     //求知的熱情   拾取
 	//直覺之躍
 	[Type] == "Viridian Jewel" && [Rarity] == "Unique" # [passive_jewel_grants_radius] && [StashItem] == "true" // The Taming     //直覺之躍   拾取
+	
+	
 	
