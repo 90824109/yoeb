@@ -588,7 +588,7 @@
 	[Type] == "Her Mask" # 	[ForceSellItem]	 == "true" // 1.0 C	//	她的面具(奉獻碎片)	拾取且售出																						
 	[Type] == "Hope" # 	[ForceSellItem]	 == "true" // 1.0 C	//	希望(三相戒指-已汙染)	拾取且售出																						
 	[Type] == "Hubris" # 	[ForceSellItem]	 == "true" // 1.0 C	//	狂妄(戒指)	拾取且售出																						
-//	[Type] == "Humility" # 	[StashItem]	 == "true" // 1.0 C	//	謙遜(無盡之衣)	拾取且存倉																						
+	[Type] == "Humility" # 	[StashItem]	 == "true" // 1.0 C	//	謙遜(無盡之衣)	拾取且存倉																						
 	[Type] == "Hunter's Resolve" # 	[ForceSellItem]	 == "true" // 1.0 C	//	獵者之願(弓)	拾取且售出																						
 	[Type] == "Imperial Legacy" # 	[StashItem]	 == "true" // 1.0 C	//	不朽聖物(六連帝國之弓-物品等級: 100)	拾取且存倉																						
 	[Type] == "Jack in the Box" # 	[ForceSellItem]	 == "true" // 1.0 C	//	驚喜盒(物品)	拾取且售出																						
