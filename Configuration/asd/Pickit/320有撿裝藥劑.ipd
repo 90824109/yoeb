@@ -1,7 +1,6 @@
 																
 [Type] == "Amethyst Flask" # 	[StashItem]	 == "true" 	//	//紫晶藥劑	不撿不存倉																																												
-[Type] == "Silver Flask" # 	[StashItem]	 == "true" 	//	//真銀藥劑	不撿不存倉																																								
-[Type] == "Diamond Flask" # 	[StashItem]	 == "true" 	//	//寶鑽藥劑	不撿不存倉																						
+[Type] == "Silver Flask" # 	[StashItem]	 == "true" 	//	//真銀藥劑	不撿不存倉																																																														
 [Type] == "Quicksilver Flask" # 	[StashItem]	 == "true" 	//	//水銀藥劑	拾取且存倉	
 [Type] == "Divine Life Flask" # 	[StashItem]	 == "true" 	//	//不朽生命藥劑
 
@@ -69,6 +68,7 @@
 [Type] == "Gemcutter's Prism"# [StashItem] == "true"////寶石GCP 拾取且存倉
 //[Type] == "Regal Orb" # [StashItem] == "true"////富豪
 [Type] == "Offering to the Goddess" # 	[StashItem]	 == "true"	//	//女神祭品存倉
+[Type] == "Divine Vessel" # 	[StashItem]	 == "true"	//	//眾神聖器存倉
 
 [Type] == "Awakened Sextant" # [StashItem] == "true"////六分
 [Type] == "Timeless Eternal Empire Splinter" # [StashItem] == "true"////永恆不朽帝國裂片不撿不存倉
