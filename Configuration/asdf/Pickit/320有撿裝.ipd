@@ -182,7 +182,7 @@
 	[Type] == "Wyrmscale Boots" && [Rarity] == "Unique" # [scorch_effect] && [StashItem] == "true" // Legacy of Fury				//傳承憤怒  地蝮鱗長靴	拾取
 	
 	//項鍊
-	[Type] == "Onyx Amulet" && [Rarity] == "Unique" # [base_chance_to_shock_%] && [StashItem] == "true" // Yoke of Suffering				//磨難之軛  黑曜護身符	拾取
+	[Type] == "Onyx Amulet" && [Rarity] == "Unique" # [increased_ailment_duration] && [StashItem] == "true" // Yoke of Suffering				//磨難之軛  黑曜護身符	拾取
 
 	//頭盔
 	[Type] == "Leather Hood" && [Rarity] == "Unique" # [defences_percent] && [StashItem] == "true" // Heatshiver				//寒焰  革兜	拾取
