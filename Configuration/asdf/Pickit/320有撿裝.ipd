@@ -158,27 +158,6 @@
     //刀
 	[Type] == "Imperial Skean" && [Rarity] == "Unique" # [increased_attack_speed] && [StashItem] == "true" // White Wind				//白風 帝國雙刃匕	拾取
 	
-	//頭盔
-	[Type] == "Ezomyte Burgonet" && [Rarity] == "Unique" # [physical_damage_taken] && [StashItem] == "true" // Abyssus				//深淵之喚 艾茲麥堅盔	拾取
-	
-	//手套
-	[Type] == "Clasped Mitts" && [Rarity] == "Unique" # [mana_leech] && [StashItem] == "true" // Shadows and Dust				//沙塵之影 環帶護手	拾取
-	[Type] == "Clasped Mitts" && [Rarity] == "Unique" # [raise_zombie_does_not_use_corpses] >= "1" && [ForceSellItem] == "true" // Aukuna's Will				//奧庫納之意 環帶護手	拾取
-	
-	
-	//靴子
-	[Type] == "Dragonscale Boots" && [Rarity] == "Unique" # [maximum_frenzy_charges]&& [StashItem] == "true" // Darkray Vectors				//暗雷 龍鱗長靴	拾取
-	
-	//項鍊
-	[Type] == "Jade Amulet" && [Rarity] == "Unique" # [on_hit_blind_chilled_enemies] && [StashItem] == "true" // The Pandemonius				//群魔殿	拾取
-	[Type] == "Jade Amulet" && [Rarity] == "Unique" # [dexterity_+%] >= "1" && [ForceSellItem] == "true" // Willowgift			//柳木之禮  翠玉護身符	拾取且售出
-	[Type] == "Jade Amulet" && [Rarity] == "Unique" # [projectile_damage_+%] >= "1" && [ForceSellItem] == "true" // Karui Ward			//卡魯的戰徽   翠玉護身符	拾取且售出
-	[Type] == "Jade Amulet" && [Rarity] == "Unique" # [local_display_grants_skill_accuracy_crits_aura_level] >= "1" && [ForceSellItem] == "true" // Hyrri's Truth			//西里的真理  翠玉護身符	拾取且售出	
-	
-	//戒指  亡者呼喚
-	[Type] == "Amethyst Ring" && [Rarity] == "Unique" # [adrenaline_on_kill] && [StashItem] == "true" // Death Rush 				//亡者呼喚 紫晶戒指  拾取
-	[Type] == "Amethyst Ring" && [Rarity] == "Unique" # [physical_damage_%_to_add_as_chaos] >= "1" && [ForceSellItem] == "true" // Ming's Heart			//明恩的慧心  紫晶戒指	拾取且售出	
-	
 	//戒指  元素之章
 	[Type] == "Prismatic Ring" && [Rarity] == "Unique" # [chance_to_freeze_shock_ignite] && [StashItem] == "true" // The Taming     //元素之章 三相戒指  拾取	
 	[Type] == "Prismatic Ring" && [Rarity] == "Unique" # [base_item_found_quantity_+%] >= "1" && [ForceSellItem] == "true" // Thief's Torment				//竊罪 三相戒指	拾取且售出
@@ -195,6 +174,15 @@
 	[Type] == "Gold Ring" && [Rarity] == "Unique" # [base_movement_velocity_+%] >= "1" && [ForceSellItem] == "true" // The Highwayman			//高尚之人  金光戒指	拾取且售出
 	[Type] == "Gold Ring" && [Rarity] == "Unique" # [additional_dexterity] >= "1" && [ForceSellItem] == "true" // Andvarius			//貪慾之記  金光戒指	拾取且售出
 	
+    //手套
+	[Type] == "Wyrmscale Gauntlets" && [Rarity] == "Unique" # [increased_attack_speed] && [StashItem] == "true" // Tanu Ahi				//埋火 蝮鱗手套	拾取
+	[Type] == "Wyrmscale Gauntlets" && [Rarity] == "Unique" # [base_maximum_life] && [ForceSellItem] == "true" // Wyrmsign				//龍族印記 蝮鱗手套	拾取
+	
+    //靴子
+	[Type] == "Wyrmscale Boots" && [Rarity] == "Unique" # [scorch_effect] && [StashItem] == "true" // Legacy of Fury				//傳承憤怒  地蝮鱗長靴	拾取
+	
+	//項鍊
+	[Type] == "Onyx Amulet" && [Rarity] == "Unique" # [base_chance_to_shock_%] && [StashItem] == "true" // Yoke of Suffering				//磨難之軛  黑曜護身符	拾取
 
-	
-	
+	//頭盔
+	[Type] == "Leather Hood" && [Rarity] == "Unique" # [defences_percent] && [StashItem] == "true" // Heatshiver				//寒焰  革兜	拾取
