@@ -50,7 +50,7 @@
 [Type]=="Tainted Blacksmith's Whetstone" # [StashItem]  == "true"
 [Type]=="Tainted Divine Teardrop" # [StashItem]  == "true"
   
-[Type] == "Rogue's Marker" # [StashItem] == "true"////盜賊之印拾取且存倉
+//[Type] == "Rogue's Marker" # [StashItem] == "true"////盜賊之印拾取且存倉
 //[Type] == "Orb of Alteration" # [StashItem] == "true"////改造石拾取且存倉
 [Type] == "Chaos Orb" # [StashItem] == "true"////混沌石拾取且存倉
 [Type] == "Divine Orb" # [StashItem] == "true"////神聖石拾取且存倉
