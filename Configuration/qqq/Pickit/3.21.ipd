@@ -847,10 +847,10 @@
 //已設定不存倉	//請勿更動//																											
 //已設定不存倉	//請勿更動//																											
 //	// 13F 輿圖																											
-[Category] == "Map" && [MapTier] >= "16" && [Rarity] == "Normal" # [StashItem] == "true"	//普通地圖		存倉																									
-[Category] == "Map" && [MapTier] >= "16" && [Rarity] == "Magic" # [StashItem] == "true"	//魔法地圖		存倉																									
-[Category] == "Map" && [MapTier] >= "16" && [Rarity] == "Rare" # [StashItem] == "true"	//稀有地圖		存倉																									
-[Category] == "Map" && [MapTier] >= "16" && [Rarity] == "Unique" # [StashItem] == "true"	//傳奇地圖		存倉																									
+[Category] == "Map" && [MapTier] >= "1" && [Rarity] == "Normal" # [StashItem] == "true"	//普通地圖		存倉																									
+[Category] == "Map" && [MapTier] >= "1" && [Rarity] == "Magic" # [StashItem] == "true"	//魔法地圖		存倉																									
+[Category] == "Map" && [MapTier] >= "1" && [Rarity] == "Rare" # [StashItem] == "true"	//稀有地圖		存倉																									
+[Category] == "Map" && [MapTier] >= "1" && [Rarity] == "Unique" # [StashItem] == "true"	//傳奇地圖		存倉																									
 
 //	// 14F 碎片																											
 [Type] == "Sacrifice at Dawn" # [ForceSellItem] == "true" //	//黎明的奉獻		賣出																									
