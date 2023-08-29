@@ -49,76 +49,52 @@
 [Type] == "Ancient Orb" # [StashItem] == "true" //	//古變石		存倉																									
 [Type] == "Fracturing Orb" # [StashItem] == "true" //	//破裂石		存倉																									
 //	//常用通貨		存倉																									
-//此通貨不撿	//混沌石		賣出																									
-//此通貨不撿	//工匠石		賣出																									
-//此通貨不撿	//點金石		賣出																									
-//此通貨不撿	//改造石		賣出																									
-//此通貨不撿	//蛻變石		賣出																									
-//此通貨不撿	//增幅石		賣出																									
-//此通貨不撿	//機會石		賣出																									
-//此通貨不撿	//鏈結石		賣出																									
-//此通貨不撿	//後悔石		賣出																									
-//此通貨不撿	//重鑄石		賣出																									
-//此通貨不撿	//富豪石		賣出																									
-//此通貨不撿	//瓦爾寶珠		賣出																									
-//此通貨不撿	//製圖釘		賣出																									
-//此通貨不撿	//地平石		賣出																									
-//此通貨不撿	//神諭石		賣出																									
-//此通貨不撿	//工程石		賣出																									
-//此通貨不撿	//磨刀石		賣出																									
-//此通貨不撿	//護甲片		賣出																									
-//此通貨不撿	//玻璃彈珠		賣出																									
-//此通貨不撿	//祝福石		賣出																									
-//此通貨不撿	//寶石匠的稜鏡		賣出																									
-//此通貨不撿	//束縛石		賣出																									
-//此通貨不撿	//幻色石		賣出																									
-//此通貨不撿	//撤銷石		賣出																									
-//	//其他通貨		存倉																									
-//此通貨不撿	//點金石碎片		賣出																									
-//此通貨不撿	//改造石碎片		賣出																									
-//此通貨不撿	//卷軸碎片		賣出																									
-//此通貨不撿	//蛻變石碎片		賣出																									
-//此通貨不撿	//滴注石		賣出																									
-//此通貨不撿	//點燃石		賣出																									
-//此通貨不撿	//無效石碎片		賣出																									
-//此通貨不撿	//束縛石碎片		賣出																									
-//此通貨不撿	//地平石碎片		賣出																									
-//此通貨不撿	//神諭石碎片		賣出																									
-//此通貨不撿	//工程石碎片		賣出																									
-//此通貨不撿	//古變石碎片		賣出																									
-//此通貨不撿	//混沌石碎片		賣出																									
-//此通貨不撿	//魔鏡碎片		賣出																									
-//此通貨不撿	//崇高石碎片		賣出																									
-//此通貨不撿	//富豪石碎片		賣出																									
-//此通貨不撿	//隱匿混沌石		賣出																									
-//此通貨不撿	//製圖封印．學者		賣出																									
-//此通貨不撿	//製圖封印．大師		賣出																									
-//此通貨不撿	//製圖六分儀．簡易		賣出																									
-//此通貨不撿	//製圖六分儀．精華		賣出																									
-//此通貨不撿	//製圖六分儀．覺醒		賣出																									
-[Type] == "Stacked Deck" # [StashItem] == "true" //	//豐裕牌組		存倉																									
-[Type] == "Unshaping Orb" # [StashItem] == "true" //	//還原玉		存倉																									
-[Type] == "Albino Rhoa Feather" # [StashItem] == "true" //	//白化的羽毛		存倉																									
-[Type] == "Offering to the Goddess" # [StashItem] == "true" //	//女神祭品		存倉																									
-[Type] == "Dedication to the Goddess" # [StashItem] == "true" //	//女神奉獻		存倉																									
-[Type] == "Tribute to the Goddess" # [StashItem] == "true" //	//女神之獻		存倉																									
-[Type] == "Gift to the Goddess" # [StashItem] == "true" //	//女神之贈		存倉																									
-[Type] == "Tainted Chromatic Orb" # [StashItem] == "true" //	//被污染的幻色		存倉																									
-[Type] == "Tainted Orb of Fusing" # [StashItem] == "true" //	//被污染的鏈結		存倉																									
-[Type] == "Tainted Jeweller's Orb" # [StashItem] == "true" //	//被污染的寶石匠		存倉																									
-[Type] == "Tainted Chaos Orb" # [StashItem] == "true" //	//被污染的混沌石		存倉																									
-[Type] == "Tainted Exalted Orb" # [StashItem] == "true" //	//被污染的崇高		存倉																									
-[Type] == "Tainted Mythic Orb" # [StashItem] == "true" //	//被污染的神話寶珠		存倉																									
-[Type] == "Tainted Armourer's Scrap" # [StashItem] == "true" //	//被污染的護甲片		存倉																									
-[Type] == "Tainted Blacksmith's Whetstone" # [StashItem] == "true" //	//被污染的磨刀石		存倉																									
-[Type] == "Tainted Divine Teardrop" # [StashItem] == "true" //	//被污染的神聖淚珠		存倉																									
-[Type] == "Fracturing Shard" # [StashItem] == "true" //	//破裂石碎片		存倉																									
-[Type] == "Voidborn Reliquary Key" # [StashItem] == "true" //	//虛誕遺鑰 		存倉																									
-[Type] == "Igneous Geode" # [StashItem] == "true" //	//火成晶洞		存倉																									
-[Type] == "Crystalline Geode" # [StashItem] == "true" //	//水晶晶洞		存倉																									
-[Type] == "Magmatic Ore" # [StashItem] == "true" //	//岩漿礦		存倉																									
-//此通貨不撿	//盜賊之印		賣出																									
-//此通貨不撿	//眾神聖器		賣出																									
+//此通貨不撿	//點金石碎片		賣出	
+//此通貨不撿	//改造石碎片		賣出	
+//此通貨不撿	//卷軸碎片		賣出	
+//此通貨不撿	//蛻變石碎片		賣出	
+[Type] == "Instilling Orb" # [StashItem] == "true" //	//滴注石		存倉	
+[Type] == "Enkindling Orb" # [StashItem] == "true" //	//點燃石		存倉	
+[Type] == "Annulment Shard" # [StashItem] == "true" //	//無效石碎片		存倉	
+//此通貨不撿	//束縛石碎片		賣出	
+//此通貨不撿	//地平石碎片		賣出	
+//此通貨不撿	//神諭石碎片		賣出	
+//此通貨不撿	//工程石碎片		賣出	
+[Type] == "Ancient Shard" # [StashItem] == "true" //	//古變石碎片		存倉	
+[Type] == "Chaos Shard" # [StashItem] == "true" //	//混沌石碎片		存倉	
+[Type] == "Mirror Shard" # [StashItem] == "true" //	//魔鏡碎片		存倉	
+[Type] == "Exalted Shard" # [StashItem] == "true" //	//崇高石碎片		存倉	
+[Type] == "Regal Shard" # [StashItem] == "true" //	//富豪石碎片		存倉	
+[Type] == "Veiled Chaos Orb" # [StashItem] == "true" //	//隱匿混沌石		存倉	
+[Type] == "Journeyman Cartographer's Seal" # [StashItem] == "true" //	//製圖封印．學者		存倉	
+[Type] == "Master Cartographer's Seal" # [StashItem] == "true" //	//製圖封印．大師		存倉	
+[Type] == "Simple Sextant" # [StashItem] == "true" //	//製圖六分儀．簡易		存倉	
+[Type] == "Prime Sextant" # [StashItem] == "true" //	//製圖六分儀．精華		存倉	
+[Type] == "Awakened Sextant" # [StashItem] == "true" //	//製圖六分儀．覺醒		存倉	
+[Type] == "Stacked Deck" # [StashItem] == "true" //	//豐裕牌組		存倉	
+[Type] == "Unshaping Orb" # [StashItem] == "true" //	//還原玉		存倉	
+[Type] == "Albino Rhoa Feather" # [StashItem] == "true" //	//白化的羽毛		存倉	
+[Type] == "Offering to the Goddess" # [StashItem] == "true" //	//女神祭品		存倉	
+[Type] == "Dedication to the Goddess" # [StashItem] == "true" //	//女神奉獻		存倉	
+[Type] == "Tribute to the Goddess" # [StashItem] == "true" //	//女神之獻		存倉	
+[Type] == "Gift to the Goddess" # [StashItem] == "true" //	//女神之贈		存倉	
+[Type] == "Tainted Chromatic Orb" # [StashItem] == "true" //	//被污染的幻色		存倉	
+[Type] == "Tainted Orb of Fusing" # [StashItem] == "true" //	//被污染的鏈結		存倉	
+[Type] == "Tainted Jeweller's Orb" # [StashItem] == "true" //	//被污染的寶石匠		存倉	
+[Type] == "Tainted Chaos Orb" # [StashItem] == "true" //	//被污染的混沌石		存倉	
+[Type] == "Tainted Exalted Orb" # [StashItem] == "true" //	//被污染的崇高		存倉	
+[Type] == "Tainted Mythic Orb" # [StashItem] == "true" //	//被污染的神話寶珠		存倉	
+[Type] == "Tainted Armourer's Scrap" # [StashItem] == "true" //	//被污染的護甲片		存倉	
+[Type] == "Tainted Blacksmith's Whetstone" # [StashItem] == "true" //	//被污染的磨刀石		存倉	
+[Type] == "Tainted Divine Teardrop" # [StashItem] == "true" //	//被污染的神聖淚珠		存倉	
+[Type] == "Fracturing Shard" # [StashItem] == "true" //	//破裂石碎片		存倉	
+[Type] == "Voidborn Reliquary Key" # [StashItem] == "true" //	//虛誕遺鑰 		存倉	
+[Type] == "Igneous Geode" # [StashItem] == "true" //	//火成晶洞		存倉	
+[Type] == "Crystalline Geode" # [StashItem] == "true" //	//水晶晶洞		存倉	
+[Type] == "Magmatic Ore" # [StashItem] == "true" //	//岩漿礦		存倉	
+//此通貨不撿	//盜賊之印		賣出	
+[Type] == "Divine Vessel" # [StashItem] == "true" //	//眾神聖器		存倉	
+//此通貨不撿	//銀幣		賣出																										
 //	//基拉克記憶																											
 //此通貨不撿	//卓越偵查報告		賣出																									
 //此通貨不撿	//超凡偵查報告		賣出																									
