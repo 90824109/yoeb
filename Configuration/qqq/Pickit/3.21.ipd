@@ -850,8 +850,8 @@
 //	// 13F 輿圖																											
 [Category] == "Map" && [MapTier] >= "16" && [Rarity] == "Normal" # [StashItem] == "true"	//普通地圖		存倉																									
 [Category] == "Map" && [MapTier] >= "16" && [Rarity] == "Magic" # [StashItem] == "true"	//魔法地圖		存倉																									
-[Category] == "Map" && [MapTier] >= "16" && [Rarity] == "Rare" # [StashItem] == "true"	//稀有地圖		存倉																									
-[Category] == "Map" && [MapTier] >= "16" && [Rarity] == "Unique" # [StashItem] == "true"	//傳奇地圖		存倉																									
+//[Category] == "Map" && [MapTier] >= "16" && [Rarity] == "Rare" # [StashItem] == "true"	//稀有地圖		存倉																									
+//[Category] == "Map" && [MapTier] >= "16" && [Rarity] == "Unique" # [StashItem] == "true"	//傳奇地圖		存倉																									
 
 //	// 14F 碎片																											
 [Type] == "Sacrifice at Dawn" # [ForceSellItem] == "true" //	//黎明的奉獻		賣出																									
@@ -892,7 +892,7 @@
 //			關閉																									
 //	// 18F 藥水（預設關閉）			//																								
 //					下面這行可以預設物等																							
-//已設定不存倉	//水銀藥劑		賣出		85	85物品等級包含以上賣出																						
+[Type] == "Quicksilver Flask"&& [ItemLevel] >= "85" && [ItemLevel] <="100" # [StashItem] == "true" //	//水銀藥劑		存倉		85	85物品等級包含以上存倉																						
 //已設定不存倉	//黃金藥劑		賣出		85																							
 //已設定不存倉	//小型生命藥劑		賣出		85																							
 //已設定不存倉	//生命藥劑（中）		賣出		85																							
@@ -905,7 +905,7 @@
 //已設定不存倉	//祝福生命藥劑		賣出		85																							
 //已設定不存倉	//聖化生命藥劑		賣出		85																							
 //已設定不存倉	//不朽生命藥劑		賣出		85																							
-//已設定不存倉	//永恆生命藥劑		賣出		85																							
+[Type] == "Eternal Life Flask"&& [ItemLevel] >= "85" && [ItemLevel] <="100" # [StashItem] == "true" //	//永恆生命藥劑		存倉		85																							
 //已設定不存倉	//小型魔力藥劑		賣出		85																							
 //已設定不存倉	//中型魔力藥劑		賣出		85																							
 //已設定不存倉	//大型魔力藥劑		賣出		85																							
@@ -916,7 +916,7 @@
 //已設定不存倉	//聖語魔力藥劑		賣出		85																							
 //已設定不存倉	//祝福魔力藥劑		賣出		85																							
 //已設定不存倉	//聖化魔力藥劑		賣出		85																							
-//已設定不存倉	//不朽魔力藥劑		賣出		85																							
+[Type] == "Divine Mana Flask"&& [ItemLevel] >= "85" && [ItemLevel] <="100" # [StashItem] == "true" //	//不朽魔力藥劑		存倉		85																							
 //已設定不存倉	//永恆魔力藥劑		賣出		85																							
 //已設定不存倉	//小型複合藥劑		賣出		85																							
 //已設定不存倉	//中型複合藥劑		賣出		85																							
@@ -926,18 +926,18 @@
 //已設定不存倉	//祝福複合藥劑		賣出		85																							
 //已設定不存倉	//灰岩藥劑		賣出		85																							
 //已設定不存倉	//迷霧藥劑		賣出		85																							
-//已設定不存倉	//紫晶藥劑		賣出		85																							
+[Type] == "Amethyst Flask"&& [ItemLevel] >= "85" && [ItemLevel] <="100" # [StashItem] == "true" //	//紫晶藥劑		存倉		85																							
 //已設定不存倉	//紅玉藥劑		賣出		85																							
 //已設定不存倉	//藍玉藥劑		賣出		85																							
 //已設定不存倉	//黃玉藥劑		賣出		85																							
-//已設定不存倉	//真銀藥劑		賣出		85																							
+[Type] == "Silver Flask"&& [ItemLevel] >= "85" && [ItemLevel] <="100" # [StashItem] == "true" //	//真銀藥劑		存倉		85																							
 //已設定不存倉	//海藍藥劑		賣出		85																							
 //已設定不存倉	//寶鑽藥劑		賣出		85																							
 //已設定不存倉	//堅岩藥劑		賣出		85																							
 //已設定不存倉	//翠玉藥劑		賣出		85																							
 //已設定不存倉	//石英藥劑		賣出		85																							
 //已設定不存倉	//硫磺藥劑		賣出		85																							
-//已設定不存倉	//石化藥劑		賣出		85																							
+//已設定不存倉	//石化藥劑		賣出		85																																													
 //	// 19F 聖甲蟲																											
 [Type] == "Rusted Ambush Scarab" # [StashItem] == "true" //	//聖甲蟲：鏽蝕伏擊		存倉																									
 [Type] == "Polished Ambush Scarab" # [StashItem] == "true" //	//聖甲蟲：圓滑伏擊		存倉																									
