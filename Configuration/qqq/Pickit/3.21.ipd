@@ -60,7 +60,7 @@
 //此通貨不撿	//後悔石		賣出																									
 //此通貨不撿	//重鑄石		賣出																									
 //此通貨不撿	//富豪石		賣出																									
-[Type] == "Vaal Orb" # [StashItem] == "true" //	//瓦爾寶珠		存倉																									
+//此通貨不撿	//瓦爾寶珠		賣出																									
 //此通貨不撿	//製圖釘		賣出																									
 //此通貨不撿	//地平石		賣出																									
 //此通貨不撿	//神諭石		賣出																									
@@ -72,7 +72,7 @@
 [Type] == "Gemcutter's Prism" # [StashItem] == "true" //	//寶石匠的稜鏡		存倉																									
 //此通貨不撿	//束縛石		賣出																									
 //此通貨不撿	//幻色石		賣出																									
-//此通貨不撿	//撤銷石		賣出																									
+[Type] == "Orb of Unmaking" # [StashItem] == "true" //	//撤銷石		存倉																									
 [Type] == "Forbidden Tome" # [StashItem] == "true" //	//禁忌之書		存倉																									
 //	//其他通貨		存倉																									
 //此通貨不撿	//點金石碎片		賣出																									
@@ -829,36 +829,36 @@
 [Type] == "Imperial Legacy" # [ForceSellItem] == "true" //	不朽聖物 (22)	1	賣出																									
 [Type] == "Rebirth" # [StashItem] == "true" //	重生 (27)		存倉																									
 //	// 12F 星團珠寶			設定天賦數																								
-[Type] == "Large Cluster Jewel" && [Rarity] == "Rare" # [local_jewel_expansion_passive_node_count] == "8" && [StashItem] == "true" //	//巨星團珠寶		存倉	8																								
-[Type] == "Large Cluster Jewel" && [Rarity] == "Rare" # [local_jewel_expansion_passive_node_count] == "12" && [StashItem] == "true" //	//巨星團珠寶		存倉	12																								
-[Type] == "Medium Cluster Jewel" && [Rarity] == "Rare" # [local_jewel_expansion_passive_node_count] == "4" && [StashItem] == "true" //	//中星團珠寶		存倉	4																								
-[Type] == "Medium Cluster Jewel" && [Rarity] == "Rare" # [local_jewel_expansion_passive_node_count] == "5" && [StashItem] == "true" //	//中星團珠寶		存倉	5																								
-[Type] == "Medium Cluster Jewel" && [Rarity] == "Rare" # [local_jewel_expansion_passive_node_count] == "6" && [StashItem] == "true" //	//中星團珠寶		存倉	6																								
-[Type] == "Small Cluster Jewel" && [Rarity] == "Rare" # [local_jewel_expansion_passive_node_count] == "2" && [StashItem] == "true" //	//小星團珠寶		存倉	2																								
-[Type] == "Small Cluster Jewel" && [Rarity] == "Rare" # [local_jewel_expansion_passive_node_count] == "3" && [StashItem] == "true" //	//小星團珠寶		存倉	3																								
-[Type] == "Large Cluster Jewel" && [Rarity] == "Magic" # [local_jewel_expansion_passive_node_count] == "8" && [StashItem] == "true" //	//請勿更動//																											
-[Type] == "Large Cluster Jewel" && [Rarity] == "Magic" # [local_jewel_expansion_passive_node_count] == "12" && [StashItem] == "true" //	//請勿更動//																											
-[Type] == "Medium Cluster Jewel" && [Rarity] == "Magic" # [local_jewel_expansion_passive_node_count] == "4" && [StashItem] == "true" //	//請勿更動//																											
-[Type] == "Medium Cluster Jewel" && [Rarity] == "Magic" # [local_jewel_expansion_passive_node_count] == "5" && [StashItem] == "true" //	//請勿更動//																											
-[Type] == "Medium Cluster Jewel" && [Rarity] == "Magic" # [local_jewel_expansion_passive_node_count] == "6" && [StashItem] == "true" //	//請勿更動//																											
-[Type] == "Small Cluster Jewel" && [Rarity] == "Magic" # [local_jewel_expansion_passive_node_count] == "2" && [StashItem] == "true" //	//請勿更動//																											
-[Type] == "Small Cluster Jewel" && [Rarity] == "Magic" # [local_jewel_expansion_passive_node_count] == "3" && [StashItem] == "true" //	//請勿更動//																											
-[Type] == "Large Cluster Jewel" && [Rarity] == "Normal" # [local_jewel_expansion_passive_node_count] == "8" && [StashItem] == "true" //	//請勿更動//																											
-[Type] == "Large Cluster Jewel" && [Rarity] == "Normal" # [local_jewel_expansion_passive_node_count] == "12" && [StashItem] == "true" //	//請勿更動//																											
-[Type] == "Medium Cluster Jewel" && [Rarity] == "Normal" # [local_jewel_expansion_passive_node_count] == "4" && [StashItem] == "true" //	//請勿更動//																											
-[Type] == "Medium Cluster Jewel" && [Rarity] == "Normal" # [local_jewel_expansion_passive_node_count] == "5" && [StashItem] == "true" //	//請勿更動//																											
-[Type] == "Medium Cluster Jewel" && [Rarity] == "Normal" # [local_jewel_expansion_passive_node_count] == "6" && [StashItem] == "true" //	//請勿更動//																											
-[Type] == "Small Cluster Jewel" && [Rarity] == "Normal" # [local_jewel_expansion_passive_node_count] == "2" && [StashItem] == "true" //	//請勿更動//																											
-[Type] == "Small Cluster Jewel" && [Rarity] == "Normal" # [local_jewel_expansion_passive_node_count] == "3" && [StashItem] == "true" //	//請勿更動//																											
+//已設定不存倉	//巨星團珠寶		賣出	8																								
+//已設定不存倉	//巨星團珠寶		賣出	12																								
+//已設定不存倉	//中星團珠寶		賣出	4																								
+//已設定不存倉	//中星團珠寶		賣出	5																								
+//已設定不存倉	//中星團珠寶		賣出	6																								
+//已設定不存倉	//小星團珠寶		賣出	2																								
+//已設定不存倉	//小星團珠寶		賣出	3																								
+//已設定不存倉	//請勿更動//																											
+//已設定不存倉	//請勿更動//																											
+//已設定不存倉	//請勿更動//																											
+//已設定不存倉	//請勿更動//																											
+//已設定不存倉	//請勿更動//																											
+//已設定不存倉	//請勿更動//																											
+//已設定不存倉	//請勿更動//																											
+//已設定不存倉	//請勿更動//																											
+//已設定不存倉	//請勿更動//																											
+//已設定不存倉	//請勿更動//																											
+//已設定不存倉	//請勿更動//																											
+//已設定不存倉	//請勿更動//																											
+//已設定不存倉	//請勿更動//																											
+//已設定不存倉	//請勿更動//																											
 //	// 13F 輿圖																											
-[Category] == "Map" && [MapTier] >= "1" && [Rarity] == "Normal" # [StashItem] == "true"	//普通地圖		存倉																									
-[Category] == "Map" && [MapTier] >= "1" && [Rarity] == "Magic" # [StashItem] == "true"	//魔法地圖		存倉																									
-[Category] == "Map" && [MapTier] >= "1" && [Rarity] == "Rare" # [StashItem] == "true"	//稀有地圖		存倉																									
+[Category] == "Map" && [MapTier] >= "16" && [Rarity] == "Normal" # [StashItem] == "true"	//普通地圖		存倉																									
+[Category] == "Map" && [MapTier] >= "16" && [Rarity] == "Magic" # [StashItem] == "true"	//魔法地圖		存倉																									
+[Category] == "Map" && [MapTier] >= "1" && [Rarity] == "Rare" # [ForceSellItem] == "true"	//稀有地圖		賣出																									
 //[Category] == "Map" && [MapTier] >= "1" && [Rarity] == "Unique" # [ForceSellItem] == "true"	//傳奇地圖		賣出																									
 //	//以下可以設定多少Tier（含）以下的地圖自動賣掉	輸入Tier	//若不賣，可以設定存倉																									
 //																												
 //[Category] == "Map" && [MapTier] <= "16" && [Rarity] == "Magic" # [StashItem] == "true"	//魔法地圖	16	存倉																									
-[Category] == "Map" && [MapTier] <= "14" && [Rarity] == "Rare" # [ForceSellItem] == "true"	//稀有地圖	14	賣出																									
+[Category] == "Map" && [MapTier] <= "16" && [Rarity] == "Rare" # [ForceSellItem] == "true"	//稀有地圖	16	賣出																									
 //																												
 //	// 14F 碎片																											
 [Type] == "Sacrifice at Dawn" # [ForceSellItem] == "true" //	//黎明的奉獻		賣出																									
@@ -882,14 +882,14 @@
 [Type] == "Maven's Invitation: The Twisted" # [StashItem] == "true" //	//釋界之邀：扭曲		存倉																									
 //																												
 //	// 15F 六連裝 (目前有無法正常賣出的語法錯誤，但是我找不到問題點)			//																								
-[Sockets] == "6" && [Linked] >= "6" # [ForceSellItem] ="true" //	//六連裝		賣出	//																								
-[Sockets] == "6" && [Linked] >= "6" && [Rarity] == "Normal" # [ForceSellItem] =="true"	//普通六連裝			//																								
-[Sockets] == "6" && [Linked] >= "6" && [Rarity] == "Magic" # [ForceSellItem] =="true"	//魔法六連裝			//																								
-[Sockets] == "6" && [Linked] >= "6" && [Rarity] == "Rare" # [ForceSellItem] =="true"	//稀有六連裝			//																								
+//[Sockets] == "6" && [Linked] >= "6" # [StashItem] ="true" //	//六連裝		不撿	//																								
+	//普通六連裝			//																								
+	//魔法六連裝			//																								
+	//稀有六連裝			//																								
 //	// 16F 六洞裝 																											
-[Sockets] == "6" && [Linked] <= "5" && [Rarity] == "Normal" # [SellUnid] == "true"	//六洞裝		賣出	//																								
-[Sockets] == "6" && [Linked] <= "5" && [Rarity] == "Magic" # [SellUnid] == "true"	//魔法六洞裝			//																								
-[Sockets] == "6" && [Linked] <= "5" && [Rarity] == "Rare" # [SellUnid] == "true"	//稀有六洞裝			//																								
+//	//六洞裝		不撿	//																								
+//	//魔法六洞裝			//																								
+//	//稀有六洞裝			//																								
 //	// 17F 機會石點裝備 (機會石不足會造成爆倉 請謹慎開啟）																											
 //	//獵首		關閉																									
 //	//魔血		關閉																									
